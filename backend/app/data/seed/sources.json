@@ -1,0 +1,81 @@
+{
+  "_note": "Source registry for the regulatory content engine. 'access' drives which ingest adapter runs. 'licence' drives whether the text may be stored and shown, or only linked to. Entries marked verified:true had their endpoint confirmed on 2026-11-13; the rest must be confirmed per source during phase 0 before any crawler is written.",
+  "_licence_values": {
+    "public-domain": "Store and display freely.",
+    "open-attribution": "Store and display with attribution (e.g. Open Government Licence, EU re-use).",
+    "permission-required": "Public but re-use is governed. Request before ingesting at scale; charges may apply.",
+    "licensed": "Must be purchased. NEVER redistribute the text in the product - map to the identifier and show the client's own wording.",
+    "client-owned": "Belongs to the customer. Ingested under the customer contract, never sourced externally."
+  },
+  "regulatory": [
+    {"id": "us-ecfr", "juris": "us", "name": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/developers", "gives": "Codified federal rules, current and point-in-time", "access": "rest-api", "formats": ["json", "xml"], "licence": "public-domain", "priority": 1, "verified": true},
+    {"id": "us-federal-register", "juris": "us", "name": "Federal Register", "url": "https://www.federalregister.gov/developers/api/v1", "gives": "Proposed and final rules, published daily", "access": "rest-api", "formats": ["json"], "licence": "public-domain", "priority": 1, "verified": true},
+    {"id": "us-govinfo", "juris": "us", "name": "GovInfo", "url": "https://www.govinfo.gov/developers", "gives": "US Code, CFR archives, bulk packages", "access": "rest-api", "formats": ["xml", "json"], "licence": "public-domain", "priority": 2, "verified": true, "notes": "Free API key required."},
+    {"id": "us-regulations-gov", "juris": "us", "name": "Regulations.gov", "url": "https://api.regulations.gov", "gives": "Dockets and comment periods", "access": "rest-api", "formats": ["json"], "licence": "public-domain", "priority": 3, "verified": false, "notes": "Free API key required."},
+    {"id": "us-fincen", "juris": "us", "name": "FinCEN", "url": "https://www.fincen.gov", "gives": "AML guidance, advisories, rulings", "access": "crawl", "formats": ["html", "pdf"], "licence": "public-domain", "priority": 1, "verified": false},
+    {"id": "us-occ", "juris": "us", "name": "OCC", "url": "https://www.occ.gov/news-issuances/bulletins/", "gives": "Bulletins and the Comptroller's Handbook", "access": "crawl", "formats": ["html", "pdf"], "licence": "public-domain", "priority": 2, "verified": false},
+    {"id": "us-cfpb", "juris": "us", "name": "CFPB", "url": "https://www.consumerfinance.gov/rules-policy/", "gives": "Regulations, bulletins, exam manuals", "access": "crawl", "formats": ["html", "pdf"], "licence": "public-domain", "priority": 2, "verified": false},
+    {"id": "us-ffiec", "juris": "us", "name": "FFIEC", "url": "https://ffiec.cfpb.gov", "gives": "IT examination handbook, exam procedures", "access": "crawl", "formats": ["html", "pdf"], "licence": "public-domain", "priority": 3, "verified": false},
+    {"id": "us-sec-edgar", "juris": "us", "name": "SEC EDGAR", "url": "https://www.sec.gov/edgar/sec-api-documentation", "gives": "Rules, releases, filings", "access": "rest-api", "formats": ["json", "xml"], "licence": "public-domain", "priority": 3, "verified": false},
+
+    {"id": "uk-legislation", "juris": "uk", "name": "legislation.gov.uk", "url": "https://www.legislation.gov.uk/developer", "gives": "Acts and statutory instruments, point-in-time", "access": "rest-api", "formats": ["xml-clml", "html", "rdf"], "licence": "open-attribution", "priority": 1, "verified": true, "notes": "Open Government Licence."},
+    {"id": "uk-fca-handbook", "juris": "uk", "name": "FCA Handbook", "url": "https://www.handbook.fca.org.uk", "gives": "FCA rules and guidance", "access": "crawl", "formats": ["html", "pdf"], "licence": "permission-required", "priority": 1, "verified": true, "notes": "Re-use runs through the Re-use of Public Sector Information Regulations 2015 request process; the FCA advises of applicable charges. Handbook reproduction is governed by its own terms and conditions. Start this request early - it is a lead-time item, not a legal formality."},
+    {"id": "uk-pra-rulebook", "juris": "uk", "name": "PRA Rulebook", "url": "https://www.prarulebook.co.uk", "gives": "Prudential rules", "access": "crawl", "formats": ["html"], "licence": "permission-required", "priority": 2, "verified": false},
+    {"id": "uk-ico", "juris": "uk", "name": "ICO", "url": "https://ico.org.uk/for-organisations/", "gives": "UK GDPR and DPA guidance", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 2, "verified": false},
+
+    {"id": "eu-eurlex", "juris": "eu", "name": "EUR-Lex / Cellar", "url": "https://eur-lex.europa.eu/content/help/data-reuse/reuse-contents-eurlex-details.html", "gives": "All EU law, multilingual, as linked data", "access": "sparql", "formats": ["rdf", "xml", "html"], "licence": "open-attribution", "priority": 1, "verified": true, "notes": "SPARQL endpoint at publications.europa.eu/webapi/rdf/sparql."},
+    {"id": "eu-eba", "juris": "eu", "name": "EBA Interactive Single Rulebook", "url": "https://www.eba.europa.eu/regulation-and-policy", "gives": "Guidelines, Q&As, technical standards", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 1, "verified": false},
+
+    {"id": "in-rbi", "juris": "in", "name": "RBI master directions and notifications", "url": "https://website.rbi.org.in/en/web/rbi/notifications/master-directions", "gives": "Master directions, circulars, notifications", "access": "crawl", "formats": ["html", "pdf"], "licence": "public-domain", "priority": 1, "verified": true, "notes": "No API. Listing pages are paginated; the site moved from rbi.org.in/Scripts/* to website.rbi.org.in - handle both."},
+    {"id": "in-sebi", "juris": "in", "name": "SEBI", "url": "https://www.sebi.gov.in/legal.html", "gives": "Circulars, regulations, master circulars", "access": "crawl", "formats": ["html", "pdf"], "licence": "public-domain", "priority": 2, "verified": false},
+    {"id": "in-meity", "juris": "in", "name": "MeitY / DPDP", "url": "https://www.meity.gov.in", "gives": "DPDP Act and subordinate rules", "access": "crawl", "formats": ["pdf"], "licence": "public-domain", "priority": 2, "verified": false},
+
+    {"id": "hk-hkma", "juris": "hk", "name": "HKMA regulatory guides", "url": "https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/", "gives": "Supervisory Policy Manual, circulars, guidelines", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 1, "verified": true, "notes": "Sitemaps are published; HKMA has an open data policy."},
+    {"id": "hk-elegislation", "juris": "hk", "name": "Hong Kong e-Legislation", "url": "https://www.elegislation.gov.hk", "gives": "Ordinances including AMLO and PDPO", "access": "crawl", "formats": ["html", "xml", "pdf"], "licence": "open-attribution", "priority": 2, "verified": false},
+    {"id": "hk-sfc", "juris": "hk", "name": "SFC", "url": "https://www.sfc.hk/en/Rules-and-standards", "gives": "Codes and guidelines", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 3, "verified": false},
+
+    {"id": "sg-mas", "juris": "sg", "name": "MAS", "url": "https://www.mas.gov.sg/regulation", "gives": "Notices, guidelines, practice notes", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 1, "verified": false},
+    {"id": "sg-sso", "juris": "sg", "name": "Singapore Statutes Online", "url": "https://sso.agc.gov.sg", "gives": "Acts and subsidiary legislation", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 2, "verified": false},
+
+    {"id": "jp-jfsa", "juris": "jp", "name": "JFSA", "url": "https://www.fsa.go.jp/en/", "gives": "Guidelines, supervisory guidelines, FIEA", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 2, "verified": false, "notes": "Japanese-language source is authoritative; the English pages lag."},
+    {"id": "jp-egov", "juris": "jp", "name": "e-Gov law search", "url": "https://elaws.e-gov.go.jp", "gives": "Japanese statutes and ordinances", "access": "rest-api", "formats": ["xml"], "licence": "open-attribution", "priority": 2, "verified": false, "notes": "Confirm the current law API version in phase 0."},
+
+    {"id": "cn-pboc", "juris": "cn", "name": "PBoC", "url": "http://www.pbc.gov.cn", "gives": "Measures, circulars, AML rules", "access": "crawl", "formats": ["html", "pdf"], "licence": "public-domain", "priority": 3, "verified": false, "notes": "Chinese-language only. In-country processing likely required."},
+    {"id": "cn-cac", "juris": "cn", "name": "CAC", "url": "http://www.cac.gov.cn", "gives": "PIPL, DSL, cross-border transfer rules", "access": "crawl", "formats": ["html", "pdf"], "licence": "public-domain", "priority": 3, "verified": false},
+
+    {"id": "kr-law", "juris": "kr", "name": "Korean Law Information Centre", "url": "https://www.law.go.kr", "gives": "Acts and supervisory regulations", "access": "rest-api", "formats": ["xml"], "licence": "open-attribution", "priority": 3, "verified": false, "notes": "Open API requires registration. Korean-language."},
+    {"id": "kr-fsc", "juris": "kr", "name": "FSC / FSS", "url": "https://www.fsc.go.kr/eng/", "gives": "Financial supervisory regulations", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 3, "verified": false},
+
+    {"id": "sa-sama", "juris": "sa", "name": "SAMA", "url": "https://www.sama.gov.sa/en-US/RulesInstructions/", "gives": "Frameworks, rules and instructions", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 3, "verified": false},
+
+    {"id": "af-sarb", "juris": "af", "name": "SARB Prudential Authority", "url": "https://www.resbank.co.za", "gives": "Directives and guidance notes", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 3, "verified": false},
+    {"id": "af-fic", "juris": "af", "name": "Financial Intelligence Centre", "url": "https://www.fic.gov.za", "gives": "FIC Act, directives, guidance", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 3, "verified": false},
+    {"id": "af-cbn", "juris": "af", "name": "Central Bank of Nigeria", "url": "https://www.cbn.gov.ng/documents/circulars.asp", "gives": "Circulars and regulations", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 3, "verified": false}
+  ],
+  "controlFrameworks": [
+    {"id": "scf", "name": "Secure Controls Framework", "url": "https://securecontrolsframework.com/scf-download", "gives": "~1,200 controls pre-mapped to 250+ laws, regulations and frameworks", "access": "download", "formats": ["xlsx"], "licence": "open-attribution", "priority": 1, "verified": true, "notes": "Highest-leverage item in this file. Gives a credible control library on day one and crosswalks we would otherwise build by hand."},
+    {"id": "nist-oscal", "name": "NIST OSCAL content (SP 800-53 Rev 5)", "url": "https://github.com/usnistgov/oscal-content", "gives": "Controls and baselines, machine-readable", "access": "download", "formats": ["json", "xml", "yaml"], "licence": "public-domain", "priority": 1, "verified": true},
+    {"id": "nist-csf", "name": "NIST CSF 2.0", "url": "https://www.nist.gov/cyberframework", "gives": "The cyber framework most clients already report against", "access": "download", "formats": ["pdf", "xlsx"], "licence": "public-domain", "priority": 1, "verified": false},
+    {"id": "cis", "name": "CIS Critical Security Controls v8.1", "url": "https://www.cisecurity.org/controls", "gives": "18 controls with implementation groups", "access": "download", "formats": ["pdf", "xlsx"], "licence": "open-attribution", "priority": 2, "verified": false, "notes": "Free, registration required."},
+    {"id": "pcidss", "name": "PCI DSS 4.0", "url": "https://www.pcisecuritystandards.org/document_library/", "gives": "Card data security requirements", "access": "download", "formats": ["pdf"], "licence": "open-attribution", "priority": 2, "verified": false},
+    {"id": "basel", "name": "Basel Framework", "url": "https://www.bis.org/basel_framework/", "gives": "Consolidated capital and liquidity standards", "access": "crawl", "formats": ["html", "pdf"], "licence": "open-attribution", "priority": 2, "verified": false},
+    {"id": "fatf", "name": "FATF 40 Recommendations", "url": "https://www.fatf-gafi.org/en/topics/fatf-recommendations.html", "gives": "The AML/CFT baseline every jurisdiction localises", "access": "download", "formats": ["pdf"], "licence": "open-attribution", "priority": 1, "verified": false},
+    {"id": "iso27002", "name": "ISO/IEC 27001 and 27002", "url": "https://www.iso.org/standard/27001", "gives": "The ISMS controls enterprises are audited against", "access": "purchase", "formats": ["pdf"], "licence": "licensed", "priority": 2, "verified": false, "notes": "Text may NOT be redistributed in the product. Map to the control identifier only."},
+    {"id": "cobit", "name": "COBIT 2019", "url": "https://www.isaca.org/resources/cobit", "gives": "IT governance objectives", "access": "purchase", "formats": ["pdf"], "licence": "licensed", "priority": 3, "verified": false},
+    {"id": "coso", "name": "COSO ERM", "url": "https://www.coso.org", "gives": "Enterprise risk management framework", "access": "purchase", "formats": ["pdf"], "licence": "licensed", "priority": 3, "verified": false}
+  ],
+  "clientSide": [
+    {"id": "client-policies", "name": "Policies and standards", "typicalHome": "SharePoint, Confluence, a policy manager", "ingest": "Connector or bulk upload, then clause-split exactly like a regulation", "licence": "client-owned"},
+    {"id": "client-controls", "name": "Control library and test results", "typicalHome": "Archer, MetricStream, ServiceNow IRM, AuditBoard, LogicGate, Diligent", "ingest": "API export on a schedule", "licence": "client-owned"},
+    {"id": "client-risks", "name": "Risk register and appetite statements", "typicalHome": "The same GRC platform, or a spreadsheet", "ingest": "API or import", "licence": "client-owned"},
+    {"id": "client-issues", "name": "Issues and remediation actions", "typicalHome": "GRC platform, Jira, ServiceNow", "ingest": "API, two-way once remediation is live", "licence": "client-owned"}
+  ],
+  "commercialProviders": [
+    {"name": "Thomson Reuters Regulatory Intelligence", "url": "https://www.thomsonreuters.com/en/products/regulatory-intelligence.html"},
+    {"name": "Wolters Kluwer", "url": "https://www.wolterskluwer.com/en/solutions/finance/regulatory-compliance"},
+    {"name": "LexisNexis Regulatory Compliance", "url": "https://www.lexisnexis.com"},
+    {"name": "CUBE (now owns 4CRisk)", "url": "https://cube.global"},
+    {"name": "Corlytics", "url": "https://www.corlytics.com"},
+    {"name": "Ascent RegTech", "url": "https://www.ascentregtech.com"}
+  ]
+}

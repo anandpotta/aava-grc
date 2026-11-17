@@ -1,0 +1,62 @@
+{
+  "POL-02": [
+    {
+      "sec": "4.1",
+      "text": "Branches shall verify the identity of every customer using documents or data from a reliable source before onboarding is complete."
+    },
+    {
+      "sec": "4.3",
+      "text": "For corporate customers the UBO register is captured and the ownership structure is recorded at onboarding."
+    },
+    {
+      "sec": "6.2",
+      "text": "Customer records are refreshed periodically according to the risk tier assigned at onboarding."
+    }
+  ],
+  "POL-01": [
+    {
+      "sec": "7.4",
+      "text": "Alerts are investigated and suspicious activity is reported to the relevant authority promptly."
+    },
+    {
+      "sec": "8.1",
+      "text": "Customer relationships are monitored on an ongoing basis and transactions that are complex or unusual are reviewed."
+    }
+  ],
+  "POL-06": [
+    {
+      "sec": "3.1",
+      "text": "The firm identifies its important business services and sets an impact tolerance for each service."
+    },
+    {
+      "sec": "3.4",
+      "text": "Business continuity plans are reviewed annually and approved by the Board."
+    }
+  ],
+  "POL-09": [
+    {
+      "sec": "2.1",
+      "text": "Primary payment data of Indian customers is stored in India; copies may be held in regional disaster recovery sites."
+    },
+    {
+      "sec": "2.5",
+      "text": "Any cross-border transfer of personal information requires a documented transfer assessment and prior approval from the Privacy Office."
+    }
+  ],
+  "POL-05": [
+    {
+      "sec": "5.2",
+      "text": "Material outsourcing arrangements are risk tiered and subject to due diligence before contract signature."
+    },
+    {
+      "sec": "5.6",
+      "text": "Exit plans are documented for critical service providers."
+    }
+  ],
+  "POL-08": [
+    {
+      "sec": "3.2",
+      "text": "Personal data breaches are assessed and notified to the supervisory authority without undue delay."
+    }
+  ]
+}

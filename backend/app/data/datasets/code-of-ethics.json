@@ -1,0 +1,580 @@
+[
+  [
+    {
+      "dsName": "2 USC §905 (k)",
+      "unique_id": "uscode.2.0.20.I.0.905|k",
+      "type": "Rule",
+      "quote": "identification of programs \n for purposes of subsections (b), (g), and (h), each account is identified by the designated budget account identification code number set forth in the budget of the united states government 2010–appendix, and an activity within an account is designated by the name of the activity and the identification code number of the account.",
+      "prefix": "2 USC §905 (k)",
+      "dataSourceIndex": 0,
+      "node": 0,
+      "impactedRule": false,
+      "index": 0,
+      "other_kps_ds2": [
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1715|11",
+          "name": "POL8-POL 18 - Diligence, Attestation",
+          "quote": "Each Covered Person must:\n• upon adoption of the Code (or thereafter as applicable, upon becoming a Covered Person), affirm in writing to the Board that he or she has received, read and understands the Code by signing the Receipt and Acknowledgment of the Code of Ethics in the form attached as Exhibit A;\n• annually thereafter affirm to the Board that he or she has complied with the requirements of the Code; and\n. notify the Chairman of the Audit Committee promptly if he or she knows of any material violation of the Code.",
+          "prefix": "POL8-POL 18 - Diligence, Attestation",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "dsName": "11 USC §522 (b)(4)",
+      "unique_id": "uscode.11.0.5.II.0.522|b.4",
+      "type": "Rule",
+      "quote": "for purposes of paragraph (3)(c) and subsection (d)(12), the following shall apply: if the retirement funds are in a retirement fund that has received a favorable determination under section 7805 of the internal revenue code of 1986, and that determination is in effect as of the date of the filing of the petition in a case under this title, those funds shall be presumed to be exempt from the estate. if the retirement funds are in a retirement fund that has not received a favorable determination under such section 7805, those funds are exempt from the estate if the debtor demonstrates that— no prior determination to the contrary has been made by a court or the internal revenue service; and  the retirement fund is in substantial compliance with the applicable requirements of the internal revenue code of 1986; or the retirement fund fails to be in substantial compliance with the applicable requirements of the internal revenue code of 1986 and the debtor is not materially responsible for that failure. a direct transfer of retirement funds from 1 fund or account that is exempt from taxation under section 401, 403, 408, 408a, 414, 457, or 501(a) of the internal revenue code of 1986, under section 401(a)(31) of the internal revenue code of 1986, or otherwise, shall not cease to qualify for exemption under paragraph (3)(c) or subsection (d)(12) by reason of such direct transfer.  any distribution that qualifies as an eligible rollover distribution within the meaning of section 402(c) of the internal revenue code of 1986 or that is described in clause (ii) shall not cease to qualify for exemption under paragraph (3)(c) or subsection (d)(12) by reason of such distribution. a distribution described in this clause is an amount that— has been distributed from a fund or account that is exempt from taxation under section 401, 403, 408, 408a, 414, 457, or 501(a) of the internal revenue code of 1986; and to the extent allowed by law, is deposited in such a fund or account not later than 60 days after the distribution of such amount.",
+      "prefix": "11 USC §522 (b)(4)",
+      "dataSourceIndex": 0,
+      "node": 1,
+      "impactedRule": false,
+      "index": 1,
+      "other_kps_ds2": [
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1724|11",
+          "name": "POL9-POL 27 - Regulations",
+          "quote": "All reports and records prepared or maintained pursuant to the Code will be considered confidential and shall be maintained and protected accordingly. Except as otherwise required by law or regulation or the Code, such matters shall not be disclosed to anyone other than the Board and the Audit Committee.",
+          "prefix": "POL9-POL 27 - Regulations",
+          "value": 0.59963474
+        }
+      ]
+    },
+    {
+      "dsName": "11 USC §522 (n)",
+      "unique_id": "uscode.11.0.5.II.0.522|n",
+      "type": "Rule",
+      "quote": "for assets in individual retirement accounts described in section 408 or 408a of the internal revenue code of 1986, other than a simplified employee pension under section 408(k) of such code or a simple retirement account under section 408(p) of such code, the aggregate value of such assets exempted under this section, without regard to amounts attributable to rollover contributions under section 402(c), 402(e)(6), 403(a)(4), 403(a)(5), and 403(b)(8) of the internal revenue code of 1986, and earnings thereon, shall not exceed $1,000,000 1  in a case filed by a debtor who is an individual, except that such amount may be increased if the interests of justice so require.",
+      "prefix": "11 USC §522 (n)",
+      "dataSourceIndex": 0,
+      "node": 2,
+      "impactedRule": false,
+      "index": 2,
+      "other_kps_ds2": [
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1724|11",
+          "name": "POL9-POL 27 - Regulations",
+          "quote": "All reports and records prepared or maintained pursuant to the Code will be considered confidential and shall be maintained and protected accordingly. Except as otherwise required by law or regulation or the Code, such matters shall not be disclosed to anyone other than the Board and the Audit Committee.",
+          "prefix": "POL9-POL 27 - Regulations",
+          "value": 0.59992216
+        },
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1725|01",
+          "name": "POL10-POL28 - Regulations",
+          "quote": "Reports and records prepared or maintained pursuant to the Code will be considered confidential and shall be maintained and protected accordingly.",
+          "prefix": "POL10-POL28 - Regulations",
+          "value": 0.59972322
+        }
+      ]
+    },
+    {
+      "dsName": "11 USC §523 (a)(1)",
+      "unique_id": "uscode.11.0.5.II.0.523|a.1",
+      "type": "Rule",
+      "quote": "for a tax or a customs duty— of the kind and for the periods specified in section 507(a)(3) or 507(a)(8) of this title, whether or not a claim for such tax was filed or allowed; with respect to which a return, or equivalent report or notice, if required— was not filed or given; or was filed or given after the date on which such return, report, or notice was last due, under applicable law or under any extension, and after two years before the date of the filing of the petition; or with respect to which the debtor made a fraudulent return or willfully attempted in any manner to evade or defeat such tax; ((a discharge under section 727, 1141, 1192 1  1228(a), 1228(b), or 1328(b) of this title does not discharge an individual debtor from any debt— 1  so in original. probably should be followed by a comma. for purposes of this subsection, the term “return” means a return that satisfies the requirements of applicable nonbankruptcy law (including applicable filing requirements). such term includes a return prepared pursuant to section 6020(a) of the internal revenue code of 1986, or similar state or local law, or a written stipulation to a judgment or a final order entered by a nonbankruptcy tribunal, but does not include a return made pursuant to section 6020(b) of the internal revenue code of 1986, or a similar state or local law.))",
+      "prefix": "11 USC §523 (a)(1)",
+      "dataSourceIndex": 0,
+      "node": 3,
+      "impactedRule": false,
+      "index": 3,
+      "other_kps_ds2": [
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1698|11",
+          "name": "POL1-POL1 - Applicability, Compliance and Violation of code",
+          "quote": "This Code of Ethics (the “Code”) for Real Estate, Inc. (the “Company”) applies to its principal executive officer, principal financial officer, principal accounting officer, controller and persons performing similar functions and all members of its Board of Directors (the “Board”) (collectively, “Covered Persons”) for the purpose of promoting:\n• honest and ethical conduct, including the ethical handling of actual or apparent conflicts of interest between personal and professional relationships;\n• full, fair, accurate, timely and understandable disclosure in reports and documents filed with, or submitted to, the Securities and Exchange Commission (the “SEC”) and in other public communications made by the Company;\n• compliance with applicable laws and governmental rules and regulations;\n• prompt internal reporting of violations of the Code to an appropriate person or persons\nidentified in the Code; and\n• accountability for adherence to the Code.",
+          "prefix": "POL1-POL1 - Applicability, Compliance and Violation of code",
+          "value": 0.79984541
+        },
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1714|11",
+          "name": "POL7-POL 17 - Training",
+          "quote": "Each Covered Person should:\n• familiarize himself or herself with the disclosure requirements generally applicable to the Company;\n• not knowingly misrepresent, or cause others to misrepresent, facts about the Company to others, whether within or outside the Company, including to the Company’s directors and auditors, and to governmental regulators and self-regulatory organizations;\n• to the extent appropriate within such Covered Person’s area of responsibility, consult with other officers and employees of the Company and Company Affiliates with the goal of promoting full, fair, accurate, timely and understandable disclosure in the reports and documents the Company files with, or submits to, the SEC and in other public communications made by the Company; and\n• promote compliance with the standards and restrictions imposed by applicable laws, rules and regulations.",
+          "prefix": "POL7-POL 17 - Training",
+          "value": 0.79994498
+        }
+      ]
+    },
+    {
+      "dsName": "11 USC §523 (a)(6)",
+      "unique_id": "uscode.11.0.5.II.0.523|a.6",
+      "type": "Rule",
+      "quote": "for willful and malicious injury by the debtor to another entity or to the property of another entity; ((a discharge under section 727, 1141, 1192 1  1228(a), 1228(b), or 1328(b) of this title does not discharge an individual debtor from any debt— 1  so in original. probably should be followed by a comma. for purposes of this subsection, the term “return” means a return that satisfies the requirements of applicable nonbankruptcy law (including applicable filing requirements). such term includes a return prepared pursuant to section 6020(a) of the internal revenue code of 1986, or similar state or local law, or a written stipulation to a judgment or a final order entered by a nonbankruptcy tribunal, but does not include a return made pursuant to section 6020(b) of the internal revenue code of 1986, or a similar state or local law.))",
+      "prefix": "11 USC §523 (a)(6)",
+      "dataSourceIndex": 0,
+      "node": 4,
+      "impactedRule": false,
+      "index": 4,
+      "other_kps_ds2": [
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1710|11",
+          "name": "POL6-POL 13 - Fair Treatment",
+          "quote": "Each Covered Person shall deal fairly with the Company’s customers, suppliers, competitors, officers and employees. No Covered Person should take unfair advantage of anyone through manipulation, concealment, abuse of privileged information, misrepresentation of material facts or any other unfair dealing or practice. The Company seeks competitive advantages through superior performance, never through unethical or illegal business practices. Stealing proprietary information, possessing trade secret information that was obtained without the owner’s consent or inducing such disclosures by past or present employees of other companies is prohibited. Covered Persons must disclose prior to or at their time of hire the existence of any employment agreement, non-compete or non-solicitation agreement, confidentiality agreement or similar agreement with a former employer that in any way restricts or prohibits the performance of any duties or responsibilities of their positions with the Company. Copies of such agreements should be provided to the President of the Company to permit evaluation of the agreement in light of the officer’s position. In no event shall a Covered Person use any trade secrets, proprietary information or other similar property, acquired in the course of his or her employment with another employer, in the performance of his or her duties for or on behalf of the Company.",
+          "prefix": "POL6-POL 13 - Fair Treatment",
+          "value": 0.59993993
+        },
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1715|11",
+          "name": "POL8-POL 18 - Diligence, Attestation",
+          "quote": "Each Covered Person must:\n• upon adoption of the Code (or thereafter as applicable, upon becoming a Covered Person), affirm in writing to the Board that he or she has received, read and understands the Code by signing the Receipt and Acknowledgment of the Code of Ethics in the form attached as Exhibit A;\n• annually thereafter affirm to the Board that he or she has complied with the requirements of the Code; and\n. notify the Chairman of the Audit Committee promptly if he or she knows of any material violation of the Code.",
+          "prefix": "POL8-POL 18 - Diligence, Attestation",
+          "value": 0.59973308
+        }
+      ]
+    },
+    {
+      "dsName": "11 USC §523 (a)(7)",
+      "unique_id": "uscode.11.0.5.II.0.523|a.7",
+      "type": "Rule",
+      "quote": "to the extent such debt is for a fine, penalty, or forfeiture payable to and for the benefit of a governmental unit, and is not compensation for actual pecuniary loss, other than a tax penalty— relating to a tax of a kind not specified in paragraph (1) of this subsection; or imposed with respect to a transaction or event that occurred before three years before the date of the filing of the petition; ((a discharge under section 727, 1141, 1192 1  1228(a), 1228(b), or 1328(b) of this title does not discharge an individual debtor from any debt— 1  so in original. probably should be followed by a comma. for purposes of this subsection, the term “return” means a return that satisfies the requirements of applicable nonbankruptcy law (including applicable filing requirements). such term includes a return prepared pursuant to section 6020(a) of the internal revenue code of 1986, or similar state or local law, or a written stipulation to a judgment or a final order entered by a nonbankruptcy tribunal, but does not include a return made pursuant to section 6020(b) of the internal revenue code of 1986, or a similar state or local law.))",
+      "prefix": "11 USC §523 (a)(7)",
+      "dataSourceIndex": 0,
+      "node": 5,
+      "impactedRule": false,
+      "index": 5,
+      "other_kps_ds2": [
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1710|11",
+          "name": "POL6-POL 13 - Fair Treatment",
+          "quote": "Each Covered Person shall deal fairly with the Company’s customers, suppliers, competitors, officers and employees. No Covered Person should take unfair advantage of anyone through manipulation, concealment, abuse of privileged information, misrepresentation of material facts or any other unfair dealing or practice. The Company seeks competitive advantages through superior performance, never through unethical or illegal business practices. Stealing proprietary information, possessing trade secret information that was obtained without the owner’s consent or inducing such disclosures by past or present employees of other companies is prohibited. Covered Persons must disclose prior to or at their time of hire the existence of any employment agreement, non-compete or non-solicitation agreement, confidentiality agreement or similar agreement with a former employer that in any way restricts or prohibits the performance of any duties or responsibilities of their positions with the Company. Copies of such agreements should be provided to the President of the Company to permit evaluation of the agreement in light of the officer’s position. In no event shall a Covered Person use any trade secrets, proprietary information or other similar property, acquired in the course of his or her employment with another employer, in the performance of his or her duties for or on behalf of the Company.",
+          "prefix": "POL6-POL 13 - Fair Treatment",
+          "value": 0.59994031
+        }
+      ]
+    },
+    {
+      "dsName": "11 USC §523 (a)(14)",
+      "unique_id": "uscode.11.0.5.II.0.523|a.14",
+      "type": "Rule",
+      "quote": "incurred to pay a tax to the united states that would be nondischargeable pursuant to paragraph (1); ((a discharge under section 727, 1141, 1192 1  1228(a), 1228(b), or 1328(b) of this title does not discharge an individual debtor from any debt— 1  so in original. probably should be followed by a comma. for purposes of this subsection, the term “return” means a return that satisfies the requirements of applicable nonbankruptcy law (including applicable filing requirements). such term includes a return prepared pursuant to section 6020(a) of the internal revenue code of 1986, or similar state or local law, or a written stipulation to a judgment or a final order entered by a nonbankruptcy tribunal, but does not include a return made pursuant to section 6020(b) of the internal revenue code of 1986, or a similar state or local law.))",
+      "prefix": "11 USC §523 (a)(14)",
+      "dataSourceIndex": 0,
+      "node": 6,
+      "impactedRule": false,
+      "index": 6,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "12 USC §1431 (e)(2)",
+      "unique_id": "uscode.12.0.11.0.0.1431|e.2",
+      "type": "Rule",
+      "quote": "the director may, subject to such rules and regulations, including definitions of terms used in this paragraph, as the director shall from time to time prescribe, authorize federal home loan banks to be drawees of, and to engage in, or be agents or intermediaries for, or otherwise participate or assist in, the collection and settlement of (including presentment, clearing, and payment of, and remitting for), checks, drafts, or any other negotiable or nonnegotiable items or instruments of payment drawn on or issued by members of any federal home loan bank or by institutions which are eligible to make application to become members pursuant to section 1424 of this title , and to have such incidental powers as the director shall find necessary for the exercise of any such authorization. a federal home loan bank shall make charges, to be determined and regulated by the director consistent with the principles set forth in section 248a(c) of this title , or utilize the services of, or act as agent for, or be a member of, a federal reserve bank, clearinghouse, or any other public or private financial institution or other agency, in the exercise of any powers or functions pursuant to this paragraph. the director is authorized, with respect to participation in the collection and settlement of any items by federal home loan banks, and with respect to the collection and settlement (including payment by the payor institution) of items payable by federal savings and loan associations and federal mutual savings banks, to prescribe rules and regulations regarding the rights, powers, responsibilities, duties, and liabilities, including standards relating thereto, of such federal home loan banks, associations, or banks and other parties to any such items or their collection and settlement. in prescribing such rules and regulations, the director may adopt or apply, in whole or in part, general banking usage and practices, and, in instances or respects in which they would otherwise not be applicable, federal reserve regulations and operating letters, the uniform commercial code, and clearinghouse rules. (( acceptance of deposits; restrictions on transaction of banking business; collection and settlement of checks, drafts, etc.; charges; rules and regulations \n))",
+      "prefix": "12 USC §1431 (e)(2)",
+      "dataSourceIndex": 0,
+      "node": 7,
+      "impactedRule": false,
+      "index": 7,
+      "other_kps_ds2": [
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1724|11",
+          "name": "POL9-POL 27 - Regulations",
+          "quote": "All reports and records prepared or maintained pursuant to the Code will be considered confidential and shall be maintained and protected accordingly. Except as otherwise required by law or regulation or the Code, such matters shall not be disclosed to anyone other than the Board and the Audit Committee.",
+          "prefix": "POL9-POL 27 - Regulations",
+          "value": 0.5993402
+        },
+        {
+          "id": "1.Policy_CODE OF ETHICS.2600.1.1725|01",
+          "name": "POL10-POL28 - Regulations",
+          "quote": "Reports and records prepared or maintained pursuant to the Code will be considered confidential and shall be maintained and protected accordingly.",
+          "prefix": "POL10-POL28 - Regulations",
+          "value": 0.59923918
+        }
+      ]
+    },
+    {
+      "dsName": "12 USC §1822 (f)(6)",
+      "unique_id": "uscode.12.0.16.0.0.1822|f.6",
+      "type": "Rule",
+      "quote": "priority of fdic rules to the extent that the regulations under this subsection conflict with rules of other agencies or government corporations, officers, directors, employees, and independent contractors of the corporation who are also subject to the conflict of interest or ethical rules of another agency or government corporation, shall be governed by the regulations prescribed by the board of directors under this subsection when acting for or on behalf of the corporation. notwithstanding the preceding sentence, the rules of the corporation shall not take priority over the ethics and conflict of interest rules and regulations promulgated by the office of government ethics unless specifically authorized by that office. (( conflict of interest \n))",
+      "prefix": "12 USC §1822 (f)(6)",
+      "dataSourceIndex": 0,
+      "node": 8,
+      "impactedRule": false,
+      "index": 8,
+      "other_kps_ds2": []
+    }
+  ],
+  [
+    {
+      "dsName": "POL1-POL1 - Applicability, Compliance and Violation of code",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1698|11",
+      "type": "Policy",
+      "quote": "This Code of Ethics (the “Code”) for Real Estate, Inc. (the “Company”) applies to its principal executive officer, principal financial officer, principal accounting officer, controller and persons performing similar functions and all members of its Board of Directors (the “Board”) (collectively, “Covered Persons”) for the purpose of promoting:\n• honest and ethical conduct, including the ethical handling of actual or apparent conflicts of interest between personal and professional relationships;\n• full, fair, accurate, timely and understandable disclosure in reports and documents filed with, or submitted to, the Securities and Exchange Commission (the “SEC”) and in other public communications made by the Company;\n• compliance with applicable laws and governmental rules and regulations;\n• prompt internal reporting of violations of the Code to an appropriate person or persons\nidentified in the Code; and\n• accountability for adherence to the Code.",
+      "prefix": "POL1-POL1 - Applicability, Compliance and Violation of code",
+      "dataSourceIndex": 1,
+      "node": 0,
+      "impactedRule": false,
+      "index": 9,
+      "other_kps_ds2": [
+        {
+          "id": "1.Control_Code of Business Ethics.2999.176.43.320|01",
+          "name": "CTRL-COE-1004 | Observed illegal and unethical behavior",
+          "quote": "Covered Persons are encouraged to talk to other officers about observed illegal or unethical behavior and about the best course of action in a particular situation. Officers and directors who are concerned that violations of the Code have occurred or may occur or that other illegal or unethical conduct by other officers or directors of the Company has occurred or may occur should contact (anonymously, confidentially or otherwise) the Compliance Officer or the Chairman of the Audit Committee.",
+          "prefix": "CTRL-COE-1004 | Observed illegal and unethical behavior",
+          "value": 0.79987486
+        }
+      ]
+    },
+    {
+      "dsName": "POL2-POL 3 - Personal Interest",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1700|11",
+      "type": "Policy",
+      "quote": "The overarching principle is that the personal interest of a Covered Person should not be placed improperly before the interest of the Company.",
+      "prefix": "POL2-POL 3 - Personal Interest",
+      "dataSourceIndex": 1,
+      "node": 1,
+      "impactedRule": false,
+      "index": 10,
+      "other_kps_ds2": [
+        {
+          "id": "1.Control_Code of Business Ethics.2997.176.1469.318|01",
+          "name": "CTRL-COE-1002 | Annual ethics survey related to personal interest",
+          "quote": "The ICG (Internal Controls Group) conducts annual CES (compliance and ethics survey) with specific inputs from the management staff with respect to personal interest in any financial or non-financial transactions related to the company. The results of CES are stored in sharepoint.",
+          "prefix": "CTRL-COE-1002 | Annual ethics survey related to personal interest",
+          "value": 0.79993936
+        }
+      ]
+    },
+    {
+      "dsName": "POL3-POL 6 - Investment Opportunity",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1703|11",
+      "type": "Policy",
+      "quote": "A Covered Person owes a duty to the Company to advance its legitimate interests when the opportunity to do so arises. If a Covered Person learns of a business or investment opportunity through the use of the Company’s property or information or position at the Company, such as from a competitor or actual or potential supplier, distributor, vendor, customer or business associate of the Company, a Covered Person may not participate in the opportunity or make the investment without the prior written approval of the Compliance Officer. Such an opportunity should be considered an investment opportunity for the Company in the first instance.",
+      "prefix": "POL3-POL 6 - Investment Opportunity",
+      "dataSourceIndex": 1,
+      "node": 2,
+      "impactedRule": false,
+      "index": 11,
+      "other_kps_ds2": [
+        {
+          "id": "1.Control_Code of Business Ethics.2998.176.43.319|01",
+          "name": "CTRL-COE-1003 | Conflict of interest in an opportunity",
+          "quote": "A Covered Person owes a duty to the Company to advance its legitimate interests when the opportunity to do so arises. If a Covered Person learns of a business or investment opportunity through the use of the Company’s property or information or position at the Company, such as from a competitor or actual or potential supplier, distributor, vendor, customer or business associate of the Company, a Covered Person may not participate in the opportunity or make the investment without the prior written approval of the Compliance Officer. Such an opportunity should be considered an investment opportunity for the Company in the first instance.",
+          "prefix": "CTRL-COE-1003 | Conflict of interest in an opportunity",
+          "value": 0.8
+        }
+      ]
+    },
+    {
+      "dsName": "POL4-POL 8 - Gifts and Entertainment",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1705|11",
+      "type": "Policy",
+      "quote": "Examples of potential conflicts of interest include:\n• service as a director on the board of any other business organization;\n• the receipt of non-nominal gifts (in excess of $100);\n• the receipt of entertainment from any company with which the Company has current or prospective business dealings, including investments in such companies, unless such entertainment is business-related, reasonable in cost, appropriate as to time and place and not so frequent as to raise any questions of impropriety; or\n• any ownership interest in, or any consulting or employment relationship with, any of the Company’s unaffiliated service providers.",
+      "prefix": "POL4-POL 8 - Gifts and Entertainment",
+      "dataSourceIndex": 1,
+      "node": 3,
+      "impactedRule": false,
+      "index": 12,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "POL5-POL 10 - Confidential Information",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1707|11",
+      "type": "Policy",
+      "quote": "Covered Persons shall maintain the confidentiality of confidential information entrusted to them by the Company or parties with whom the Company transacts business, except when disclosure is authorized by the Chairman of the Audit Committee or required by laws, regulations or legal proceedings. Whenever feasible, Covered Persons should consult with the Chairman of the Audit Committee if they believe they have a legal obligation to disclose confidential information",
+      "prefix": "POL5-POL 10 - Confidential Information",
+      "dataSourceIndex": 1,
+      "node": 4,
+      "impactedRule": false,
+      "index": 13,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "POL6-POL 13 - Fair Treatment",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1710|11",
+      "type": "Policy",
+      "quote": "Each Covered Person shall deal fairly with the Company’s customers, suppliers, competitors, officers and employees. No Covered Person should take unfair advantage of anyone through manipulation, concealment, abuse of privileged information, misrepresentation of material facts or any other unfair dealing or practice. The Company seeks competitive advantages through superior performance, never through unethical or illegal business practices. Stealing proprietary information, possessing trade secret information that was obtained without the owner’s consent or inducing such disclosures by past or present employees of other companies is prohibited. Covered Persons must disclose prior to or at their time of hire the existence of any employment agreement, non-compete or non-solicitation agreement, confidentiality agreement or similar agreement with a former employer that in any way restricts or prohibits the performance of any duties or responsibilities of their positions with the Company. Copies of such agreements should be provided to the President of the Company to permit evaluation of the agreement in light of the officer’s position. In no event shall a Covered Person use any trade secrets, proprietary information or other similar property, acquired in the course of his or her employment with another employer, in the performance of his or her duties for or on behalf of the Company.",
+      "prefix": "POL6-POL 13 - Fair Treatment",
+      "dataSourceIndex": 1,
+      "node": 5,
+      "impactedRule": false,
+      "index": 14,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "POL7-POL 17 - Training",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1714|11",
+      "type": "Policy",
+      "quote": "Each Covered Person should:\n• familiarize himself or herself with the disclosure requirements generally applicable to the Company;\n• not knowingly misrepresent, or cause others to misrepresent, facts about the Company to others, whether within or outside the Company, including to the Company’s directors and auditors, and to governmental regulators and self-regulatory organizations;\n• to the extent appropriate within such Covered Person’s area of responsibility, consult with other officers and employees of the Company and Company Affiliates with the goal of promoting full, fair, accurate, timely and understandable disclosure in the reports and documents the Company files with, or submits to, the SEC and in other public communications made by the Company; and\n• promote compliance with the standards and restrictions imposed by applicable laws, rules and regulations.",
+      "prefix": "POL7-POL 17 - Training",
+      "dataSourceIndex": 1,
+      "node": 6,
+      "impactedRule": false,
+      "index": 15,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "POL8-POL 18 - Diligence, Attestation",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1715|11",
+      "type": "Policy",
+      "quote": "Each Covered Person must:\n• upon adoption of the Code (or thereafter as applicable, upon becoming a Covered Person), affirm in writing to the Board that he or she has received, read and understands the Code by signing the Receipt and Acknowledgment of the Code of Ethics in the form attached as Exhibit A;\n• annually thereafter affirm to the Board that he or she has complied with the requirements of the Code; and\n. notify the Chairman of the Audit Committee promptly if he or she knows of any material violation of the Code.",
+      "prefix": "POL8-POL 18 - Diligence, Attestation",
+      "dataSourceIndex": 1,
+      "node": 7,
+      "impactedRule": false,
+      "index": 16,
+      "other_kps_ds2": [
+        {
+          "id": "1.Control_Code of Business Ethics.2996.176.1726.317|01",
+          "name": "CTRL-COE-1001 | Annual ethics survey program",
+          "quote": "The ICG (Internal Controls Group) ensures code of ethics survey is sent, acknowledged and submitted by the Board of Directors, principal executive officer, principal financial officer, principal accounting officer, controller and others performing similar functions. The Global Code of Ethics policy enforces honest and ethical conduct, internal reporting of violations.",
+          "prefix": "CTRL-COE-1001 | Annual ethics survey program",
+          "value": 0.79996345
+        }
+      ]
+    },
+    {
+      "dsName": "POL9-POL 27 - Regulations",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1724|11",
+      "type": "Policy",
+      "quote": "All reports and records prepared or maintained pursuant to the Code will be considered confidential and shall be maintained and protected accordingly. Except as otherwise required by law or regulation or the Code, such matters shall not be disclosed to anyone other than the Board and the Audit Committee.",
+      "prefix": "POL9-POL 27 - Regulations",
+      "dataSourceIndex": 1,
+      "node": 8,
+      "impactedRule": false,
+      "index": 17,
+      "other_kps_ds2": [
+        {
+          "id": "1.Control_Code of Business Ethics.3001.176.1481.321|01",
+          "name": "CTRL-COE-1006 | Financial reports verification",
+          "quote": "The ICG (internal controls group) verifies financial reports and records to ensure code of ethics guidelines were followed. Annually ICG also confirms that the reports and records were not published to any party other than the board and audit committee or the lagal authorities as necessary.",
+          "prefix": "CTRL-COE-1006 | Financial reports verification",
+          "value": 0.79996678
+        },
+        {
+          "id": "1.Control_Code of Business Ethics.3002.176.1481.322|01",
+          "name": "CTRL-COE-1007 | Financial reports sharing",
+          "quote": "The ICG (internal controls group) verifies financial reports Annually to confirm that the reports and records were not published to any party other than the board and audit committee.",
+          "prefix": "CTRL-COE-1007 | Financial reports sharing",
+          "value": 0.79985306
+        }
+      ]
+    },
+    {
+      "dsName": "POL10-POL28 - Regulations",
+      "unique_id": "1.Policy_CODE OF ETHICS.2600.1.1725|01",
+      "type": "Policy",
+      "quote": "Reports and records prepared or maintained pursuant to the Code will be considered confidential and shall be maintained and protected accordingly.",
+      "prefix": "POL10-POL28 - Regulations",
+      "dataSourceIndex": 1,
+      "node": 9,
+      "impactedRule": false,
+      "index": 18,
+      "other_kps_ds2": [
+        {
+          "id": "1.Control_Code of Business Ethics.3001.176.1481.321|01",
+          "name": "CTRL-COE-1006 | Financial reports verification",
+          "quote": "The ICG (internal controls group) verifies financial reports and records to ensure code of ethics guidelines were followed. Annually ICG also confirms that the reports and records were not published to any party other than the board and audit committee or the lagal authorities as necessary.",
+          "prefix": "CTRL-COE-1006 | Financial reports verification",
+          "value": 0.79995947
+        },
+        {
+          "id": "1.Control_Code of Business Ethics.3002.176.1481.322|01",
+          "name": "CTRL-COE-1007 | Financial reports sharing",
+          "quote": "The ICG (internal controls group) verifies financial reports Annually to confirm that the reports and records were not published to any party other than the board and audit committee.",
+          "prefix": "CTRL-COE-1007 | Financial reports sharing",
+          "value": 0.7998441
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "dsName": "CTRL-COE-1001 | Annual ethics survey program",
+      "unique_id": "1.Control_Code of Business Ethics.2996.176.1726.317|01",
+      "type": "Control",
+      "quote": "The ICG (Internal Controls Group) ensures code of ethics survey is sent, acknowledged and submitted by the Board of Directors, principal executive officer, principal financial officer, principal accounting officer, controller and others performing similar functions. The Global Code of Ethics policy enforces honest and ethical conduct, internal reporting of violations.",
+      "prefix": "CTRL-COE-1001 | Annual ethics survey program",
+      "dataSourceIndex": 2,
+      "node": 0,
+      "impactedRule": false,
+      "index": 19,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "CTRL-COE-1002 | Annual ethics survey related to personal interest",
+      "unique_id": "1.Control_Code of Business Ethics.2997.176.1469.318|01",
+      "type": "Control",
+      "quote": "The ICG (Internal Controls Group) conducts annual CES (compliance and ethics survey) with specific inputs from the management staff with respect to personal interest in any financial or non-financial transactions related to the company. The results of CES are stored in sharepoint.",
+      "prefix": "CTRL-COE-1002 | Annual ethics survey related to personal interest",
+      "dataSourceIndex": 2,
+      "node": 1,
+      "impactedRule": false,
+      "index": 20,
+      "other_kps_ds2": [
+        {
+          "id": "1.Issue_Swap Dealer - Records Retention.129.58|01",
+          "name": "IS2-Final approval and signatures not captured for management recommendations",
+          "quote": "Sharepoint continue to be the system of record for audit findings and risk management recommendations, however, the management response doesn't capture final approval by the head of the business unit consistently.",
+          "prefix": "IS2-Final approval and signatures not captured for management recommendations",
+          "value": 0.59964172
+        }
+      ]
+    },
+    {
+      "dsName": "CTRL-COE-1003 | Conflict of interest in an opportunity",
+      "unique_id": "1.Control_Code of Business Ethics.2998.176.43.319|01",
+      "type": "Control",
+      "quote": "A Covered Person owes a duty to the Company to advance its legitimate interests when the opportunity to do so arises. If a Covered Person learns of a business or investment opportunity through the use of the Company’s property or information or position at the Company, such as from a competitor or actual or potential supplier, distributor, vendor, customer or business associate of the Company, a Covered Person may not participate in the opportunity or make the investment without the prior written approval of the Compliance Officer. Such an opportunity should be considered an investment opportunity for the Company in the first instance.",
+      "prefix": "CTRL-COE-1003 | Conflict of interest in an opportunity",
+      "dataSourceIndex": 2,
+      "node": 2,
+      "impactedRule": false,
+      "index": 21,
+      "other_kps_ds2": [
+        {
+          "id": "1.Issue_Swap Dealer - Records Retention.126.58|01",
+          "name": "IS3-Inadequate evidence of swap governance artifacts",
+          "quote": "SharePoint is a preferred and official system of records for all swap related activities. However, evidence from Q1 and Q2 of 2020 are not complete as it relates to the format of the minutes of the meeting, notes of the meeting, participation of stakeholders and presentation material used for the meeting. Minutes were approved by the meeting chiar person.",
+          "prefix": "IS3-Inadequate evidence of swap governance artifacts",
+          "value": 0.79994778
+        }
+      ]
+    },
+    {
+      "dsName": "CTRL-COE-1004 | Observed illegal and unethical behavior",
+      "unique_id": "1.Control_Code of Business Ethics.2999.176.43.320|01",
+      "type": "Control",
+      "quote": "Covered Persons are encouraged to talk to other officers about observed illegal or unethical behavior and about the best course of action in a particular situation. Officers and directors who are concerned that violations of the Code have occurred or may occur or that other illegal or unethical conduct by other officers or directors of the Company has occurred or may occur should contact (anonymously, confidentially or otherwise) the Compliance Officer or the Chairman of the Audit Committee.",
+      "prefix": "CTRL-COE-1004 | Observed illegal and unethical behavior",
+      "dataSourceIndex": 2,
+      "node": 3,
+      "impactedRule": false,
+      "index": 22,
+      "other_kps_ds2": [
+        {
+          "id": "1.Issue_Swap Dealer - Records Retention.126.58|01",
+          "name": "IS3-Inadequate evidence of swap governance artifacts",
+          "quote": "SharePoint is a preferred and official system of records for all swap related activities. However, evidence from Q1 and Q2 of 2020 are not complete as it relates to the format of the minutes of the meeting, notes of the meeting, participation of stakeholders and presentation material used for the meeting. Minutes were approved by the meeting chiar person.",
+          "prefix": "IS3-Inadequate evidence of swap governance artifacts",
+          "value": 0.79994709
+        }
+      ]
+    },
+    {
+      "dsName": "CTRL-COE-1005 | Compliance training program enforcement",
+      "unique_id": "1.Control_Code of Business Ethics.3000.176.1475.19|01",
+      "type": "Control",
+      "quote": "Complaince training programs managed by individual lines of businesses include Global Code of Ethics guidelines. The compliance training program is mandatory for all principal execs and their immediate reporting staff.",
+      "prefix": "CTRL-COE-1005 | Compliance training program enforcement",
+      "dataSourceIndex": 2,
+      "node": 4,
+      "impactedRule": false,
+      "index": 23,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "CTRL-COE-1006 | Financial reports verification",
+      "unique_id": "1.Control_Code of Business Ethics.3001.176.1481.321|01",
+      "type": "Control",
+      "quote": "The ICG (internal controls group) verifies financial reports and records to ensure code of ethics guidelines were followed. Annually ICG also confirms that the reports and records were not published to any party other than the board and audit committee or the lagal authorities as necessary.",
+      "prefix": "CTRL-COE-1006 | Financial reports verification",
+      "dataSourceIndex": 2,
+      "node": 5,
+      "impactedRule": false,
+      "index": 24,
+      "other_kps_ds2": [
+        {
+          "id": "1.Issue_Swap Dealer - Records Retention.127.58|01",
+          "name": "IS5-Official system of record for organization charts has changed. Need controls update.",
+          "quote": "Sharepoint is no long the official system of record for Organizational charts from the governing body and the business trading units. These records have been standardized in peoplesoft, therefore, the controls and process flow charts require updates.",
+          "prefix": "IS5-Official system of record for organization charts has changed. Need controls update.",
+          "value": 0.79995133
+        }
+      ]
+    },
+    {
+      "dsName": "CTRL-COE-1007 | Financial reports sharing",
+      "unique_id": "1.Control_Code of Business Ethics.3002.176.1481.322|01",
+      "type": "Control",
+      "quote": "The ICG (internal controls group) verifies financial reports Annually to confirm that the reports and records were not published to any party other than the board and audit committee.",
+      "prefix": "CTRL-COE-1007 | Financial reports sharing",
+      "dataSourceIndex": 2,
+      "node": 6,
+      "impactedRule": false,
+      "index": 25,
+      "other_kps_ds2": [
+        {
+          "id": "1.Issue_Swap Dealer - Records Retention.128.58|01",
+          "name": "IS1-Official system of record for employee records changed. Need controls udpate.",
+          "quote": "Audit arficacts (resumes of management level staff members, their job descriptions, job responsibilities) are no longer maintained in sharepoint. SAP is the offical system of record, therefore, controls and procedures require updates to reflect SAP as the system of record instead of sharepoint.",
+          "prefix": "IS1-Official system of record for employee records changed. Need controls udpate.",
+          "value": 0.79994769
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "dsName": "IS1-Official system of record for employee records changed. Need controls udpate.",
+      "unique_id": "1.Issue_Swap Dealer - Records Retention.128.58|01",
+      "type": "Issue",
+      "quote": "Audit arficacts (resumes of management level staff members, their job descriptions, job responsibilities) are no longer maintained in sharepoint. SAP is the offical system of record, therefore, controls and procedures require updates to reflect SAP as the system of record instead of sharepoint.",
+      "prefix": "IS1-Official system of record for employee records changed. Need controls udpate.",
+      "dataSourceIndex": 3,
+      "node": 0,
+      "impactedRule": false,
+      "index": 26,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "IS2-Final approval and signatures not captured for management recommendations",
+      "unique_id": "1.Issue_Swap Dealer - Records Retention.129.58|01",
+      "type": "Issue",
+      "quote": "Sharepoint continue to be the system of record for audit findings and risk management recommendations, however, the management response doesn't capture final approval by the head of the business unit consistently.",
+      "prefix": "IS2-Final approval and signatures not captured for management recommendations",
+      "dataSourceIndex": 3,
+      "node": 1,
+      "impactedRule": false,
+      "index": 27,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "IS3-Inadequate evidence of swap governance artifacts",
+      "unique_id": "1.Issue_Swap Dealer - Records Retention.126.58|01",
+      "type": "Issue",
+      "quote": "SharePoint is a preferred and official system of records for all swap related activities. However, evidence from Q1 and Q2 of 2020 are not complete as it relates to the format of the minutes of the meeting, notes of the meeting, participation of stakeholders and presentation material used for the meeting. Minutes were approved by the meeting chiar person.",
+      "prefix": "IS3-Inadequate evidence of swap governance artifacts",
+      "dataSourceIndex": 3,
+      "node": 2,
+      "impactedRule": false,
+      "index": 28,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "IS4-Evidence not collected for newly acquired product lines",
+      "unique_id": "1.Issue_Swap Dealer - Records Retention.130.58|01",
+      "type": "Issue",
+      "quote": "Records related for marketing and sales activites conducted in the region are not available for the newly acquired product lines for the period Q1 and Q2 of 2020.",
+      "prefix": "IS4-Evidence not collected for newly acquired product lines",
+      "dataSourceIndex": 3,
+      "node": 3,
+      "impactedRule": false,
+      "index": 29,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "IS5-Official system of record for organization charts has changed. Need controls update.",
+      "unique_id": "1.Issue_Swap Dealer - Records Retention.127.58|01",
+      "type": "Issue",
+      "quote": "Sharepoint is no long the official system of record for Organizational charts from the governing body and the business trading units. These records have been standardized in peoplesoft, therefore, the controls and process flow charts require updates.",
+      "prefix": "IS5-Official system of record for organization charts has changed. Need controls update.",
+      "dataSourceIndex": 3,
+      "node": 4,
+      "impactedRule": false,
+      "index": 30,
+      "other_kps_ds2": []
+    },
+    {
+      "dsName": "IS6-Missing reportable data elements from the complaints tracking system",
+      "unique_id": "1.Issue_Swap Dealer - Records Retention.131.58|01",
+      "type": "Issue",
+      "quote": "Following issues were noticed with the complaints information \n- Missing complainant acknowledgement about the complain",
+      "prefix": "IS6-Missing reportable data elements from the complaints tracking system",
+      "dataSourceIndex": 3,
+      "node": 5,
+      "impactedRule": false,
+      "index": 31,
+      "other_kps_ds2": []
+    }
+  ]
+]

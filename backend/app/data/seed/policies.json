@@ -1,0 +1,459 @@
+[
+  {
+    "id": "POL-01",
+    "name": "Group Anti-Money Laundering Policy",
+    "owner": "Group Head of FCC",
+    "version": "v6.2",
+    "nextReview": "2026-03-31",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "ca",
+      "hk",
+      "sg",
+      "in"
+    ],
+    "ruleMatter": "AML / CFT"
+  },
+  {
+    "id": "POL-02",
+    "name": "Know Your Customer and CDD Standard",
+    "owner": "Head of Onboarding",
+    "version": "v4.0",
+    "nextReview": "2026-01-31",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "hk",
+      "in",
+      "sg"
+    ],
+    "ruleMatter": "KYC and CDD"
+  },
+  {
+    "id": "POL-03",
+    "name": "Sanctions Compliance Policy",
+    "owner": "Head of Sanctions",
+    "version": "v3.1",
+    "nextReview": "2026-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "eu",
+      "sg"
+    ],
+    "ruleMatter": "Sanctions screening"
+  },
+  {
+    "id": "POL-04",
+    "name": "Consumer Outcomes and Fair Treatment Policy",
+    "owner": "Head of Conduct",
+    "version": "v2.4",
+    "nextReview": "2026-04-30",
+    "jurisdictions": [
+      "uk",
+      "us",
+      "in",
+      "af"
+    ],
+    "ruleMatter": "Consumer protection"
+  },
+  {
+    "id": "POL-05",
+    "name": "Third Party and Outsourcing Risk Policy",
+    "owner": "Chief Procurement Officer",
+    "version": "v5.0",
+    "nextReview": "2026-02-28",
+    "jurisdictions": [
+      "us",
+      "ca",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "cn"
+    ],
+    "ruleMatter": "Outsourcing and third party"
+  },
+  {
+    "id": "POL-06",
+    "name": "Operational Resilience Policy",
+    "owner": "Chief Operating Officer",
+    "version": "v1.3",
+    "nextReview": "2026-05-31",
+    "jurisdictions": [
+      "uk",
+      "hk",
+      "ca",
+      "eu",
+      "sa"
+    ],
+    "ruleMatter": "Operational resilience"
+  },
+  {
+    "id": "POL-07",
+    "name": "Information Security Policy",
+    "owner": "Chief Information Security Officer",
+    "version": "v8.1",
+    "nextReview": "2026-01-15",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "eu",
+      "in",
+      "sg",
+      "sa",
+      "kr"
+    ],
+    "ruleMatter": "Cyber security"
+  },
+  {
+    "id": "POL-08",
+    "name": "Global Privacy and Data Protection Policy",
+    "owner": "Group Data Protection Officer",
+    "version": "v4.5",
+    "nextReview": "2026-03-15",
+    "jurisdictions": [
+      "uk",
+      "eu",
+      "in",
+      "jp",
+      "kr",
+      "hk",
+      "af"
+    ],
+    "ruleMatter": "Data privacy"
+  },
+  {
+    "id": "POL-09",
+    "name": "Data Residency and Cross-Border Transfer Standard",
+    "owner": "Group DPO",
+    "version": "v2.0",
+    "nextReview": "2026-07-31",
+    "jurisdictions": [
+      "in",
+      "cn",
+      "kr",
+      "eu"
+    ],
+    "ruleMatter": "Data localisation"
+  },
+  {
+    "id": "POL-10",
+    "name": "Regulatory Reporting Policy",
+    "owner": "Group Financial Controller",
+    "version": "v3.3",
+    "nextReview": "2026-02-15",
+    "jurisdictions": [
+      "uk",
+      "eu",
+      "cn"
+    ],
+    "ruleMatter": "Regulatory reporting"
+  },
+  {
+    "id": "POL-11",
+    "name": "Capital Management Policy",
+    "owner": "Group Treasurer",
+    "version": "v4.1",
+    "nextReview": "2026-06-15",
+    "jurisdictions": [
+      "eu",
+      "cn"
+    ],
+    "ruleMatter": "Capital and liquidity"
+  },
+  {
+    "id": "POL-12",
+    "name": "Complaints Management Policy",
+    "owner": "Head of Customer Care",
+    "version": "v2.2",
+    "nextReview": "2026-04-15",
+    "jurisdictions": [
+      "ca",
+      "in",
+      "uk",
+      "af"
+    ],
+    "ruleMatter": "Complaints handling"
+  },
+  {
+    "id": "POL-13",
+    "name": "Risk Governance and Accountability Framework",
+    "owner": "Chief Risk Officer",
+    "version": "v7.0",
+    "nextReview": "2026-01-31",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "af",
+      "sa",
+      "hk",
+      "in"
+    ],
+    "ruleMatter": "Governance and accountability"
+  },
+  {
+    "id": "POL-14",
+    "name": "Fraud and Payment Security Policy",
+    "owner": "Head of Fraud Risk",
+    "version": "v3.0",
+    "nextReview": "2026-05-15",
+    "jurisdictions": [
+      "eu",
+      "uk",
+      "in"
+    ],
+    "ruleMatter": "Fraud and payments"
+  },
+  {
+    "id": "POL-15",
+    "name": "Records Management and Retention Policy",
+    "owner": "Chief Data Officer",
+    "version": "v2.8",
+    "nextReview": "2026-08-31",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "sa",
+      "cn"
+    ],
+    "ruleMatter": "Records and retention"
+  },
+  {
+    "id": "POL-16",
+    "name": "Sales Conduct and Suitability Policy",
+    "owner": "Head of Advisory",
+    "version": "v1.9",
+    "nextReview": "2026-03-31",
+    "jurisdictions": [
+      "jp",
+      "hk"
+    ],
+    "ruleMatter": "Conduct and culture"
+  },
+  {
+    "id": "POL-17",
+    "name": "Access Control Policy",
+    "owner": "Head of IT Security",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Access control"
+  },
+  {
+    "id": "POL-18",
+    "name": "Change and Release Management Policy",
+    "owner": "Head of Engineering",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Change management"
+  },
+  {
+    "id": "POL-19",
+    "name": "Availability and Backup Policy",
+    "owner": "Head of Infrastructure",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Availability and backup"
+  },
+  {
+    "id": "POL-20",
+    "name": "Data Classification and Encryption Policy",
+    "owner": "CISO",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Confidentiality and encryption"
+  },
+  {
+    "id": "POL-21",
+    "name": "Code of Conduct and Training Policy",
+    "owner": "Head of HR",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "People and training"
+  },
+  {
+    "id": "POL-22",
+    "name": "Quality Management Policy",
+    "owner": "Head of Quality",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Quality management"
+  },
+  {
+    "id": "POL-23",
+    "name": "Internal Audit Charter",
+    "owner": "Chief Audit Executive",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Internal audit programme"
+  },
+  {
+    "id": "POL-24",
+    "name": "Corrective and Preventive Action Procedure",
+    "owner": "Head of Quality",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Corrective and preventive action"
+  },
+  {
+    "id": "POL-25",
+    "name": "Supplier Code of Conduct and Provenance Policy",
+    "owner": "Head of Procurement",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Supply chain integrity"
+  },
+  {
+    "id": "POL-26",
+    "name": "Product Safety and Recall Policy",
+    "owner": "Head of Quality",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Product safety and recall"
+  },
+  {
+    "id": "POL-27",
+    "name": "Protected Health Information Handling Policy",
+    "owner": "Privacy Officer",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Health information privacy"
+  },
+  {
+    "id": "POL-28",
+    "name": "Online Selling, Pricing and Returns Policy",
+    "owner": "Head of E-commerce",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Online consumer rights"
+  },
+  {
+    "id": "POL-29",
+    "name": "Warehouse and Fleet Safety Policy",
+    "owner": "Head of Logistics",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Transport and warehouse safety"
+  },
+  {
+    "id": "POL-30",
+    "name": "Financial Close and Reporting Policy",
+    "owner": "Group Controller",
+    "version": "v1.0",
+    "nextReview": "2027-06-30",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Financial reporting controls"
+  }
+]

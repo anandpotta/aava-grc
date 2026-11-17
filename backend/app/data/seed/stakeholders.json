@@ -1,0 +1,12 @@
+[
+ {"id":"SH-01","name":"Priya Raman","role":"Chief Compliance Officer","short":"CCO","owns":[],"approves":["gate3","gate2"],"channels":["email","teams"],"manager":null},
+ {"id":"SH-02","name":"Arjun Mehta","role":"Group Head of FCC","short":"Head of FCC","owns":["Group Head of FCC","FCC Analytics","FCC Investigations","Head of Sanctions","Sanctions Office","KYC Utility","Onboarding Ops","Head of Onboarding"],"approves":["gate2"],"channels":["email","teams","jira"],"manager":"SH-01"},
+ {"id":"SH-03","name":"Meera Iyer","role":"Group DPO","short":"DPO","owns":["Group DPO","Group Data Protection Officer","Privacy Office","Information Governance","Chief Data Officer"],"approves":["gate2"],"channels":["email","teams"],"manager":"SH-01"},
+ {"id":"SH-04","name":"Rohan Das","role":"Head of Platform Engineering","short":"Platform Eng","owns":["Platform Engineering","IAM Team","Security Engineering","Digital Channels","Chief Information Security Officer","Incident Command"],"approves":[],"channels":["jira","teams"],"manager":"SH-06"},
+ {"id":"SH-05","name":"Kavita Rao","role":"Head of Payments Operations","short":"Payments Ops","owns":["Payments Ops","Chief Operating Officer","Treasury","Group Treasurer","Group Financial Controller","Regulatory Reporting"],"approves":[],"channels":["email","teams"],"manager":"SH-06"},
+ {"id":"SH-06","name":"Vikram Shah","role":"Chief Risk Officer","short":"CRO","owns":["Chief Risk Officer","Resilience Office","Head of Fraud Risk","Governance Office"],"approves":["gate3"],"channels":["email","teams"],"manager":null},
+ {"id":"SH-07","name":"Neha Kapoor","role":"Head of Conduct and Customer","short":"Conduct","owns":["Head of Conduct","Customer Care","Head of Customer Care","Advisory Supervision","Head of Advisory","Product Governance"],"approves":[],"channels":["email"],"manager":"SH-01"},
+ {"id":"SH-08","name":"Sanjay Nair","role":"Chief Procurement Officer","short":"Procurement","owns":["Chief Procurement Officer","Vendor Management"],"approves":[],"channels":["email"],"manager":"SH-06"},
+ {"id":"SH-09","name":"Ananya Bose","role":"Legal and Regulatory Affairs","short":"Legal","owns":[],"approves":["gate2"],"channels":["email","teams"],"manager":"SH-01"},
+ {"id":"SH-10","name":"Imran Qureshi","role":"Head of Internal Audit","short":"Internal Audit","owns":[],"approves":[],"channels":["email"],"manager":null}
+]

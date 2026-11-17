@@ -1,0 +1,155 @@
+[
+  {
+    "id": "ISS-01",
+    "riskId": "RSK-01",
+    "name": "Beneficial ownership evidence missing for 312 legacy entity accounts",
+    "severity": "High",
+    "owner": "KYC Utility",
+    "due": "2026-01-30",
+    "status": "In progress"
+  },
+  {
+    "id": "ISS-02",
+    "riskId": "RSK-05",
+    "name": "Scenario testing not performed for two important business services",
+    "severity": "High",
+    "owner": "Resilience Office",
+    "due": "2026-02-28",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-03",
+    "riskId": "RSK-08",
+    "name": "Payment tokens replicated to a non-Indian disaster recovery region",
+    "severity": "Critical",
+    "owner": "Platform Engineering",
+    "due": "2025-12-15",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-04",
+    "riskId": "RSK-06",
+    "name": "No tested exit plan for the core cloud hosting arrangement",
+    "severity": "High",
+    "owner": "Vendor Management",
+    "due": "2026-03-31",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-05",
+    "riskId": "RSK-07",
+    "name": "Breach assessment workflow cannot evidence the 72-hour clock",
+    "severity": "Medium",
+    "owner": "Privacy Office",
+    "due": "2026-02-15",
+    "status": "In progress"
+  },
+  {
+    "id": "ISS-06",
+    "riskId": "RSK-04",
+    "name": "Fair value assessments outstanding for 9 retail products",
+    "severity": "High",
+    "owner": "Product Governance",
+    "due": "2026-04-30",
+    "status": "In progress"
+  },
+  {
+    "id": "ISS-07",
+    "riskId": "RSK-03",
+    "name": "Manual blocked-property register has no maker-checker control",
+    "severity": "Medium",
+    "owner": "Sanctions Office",
+    "due": "2026-03-15",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-08",
+    "riskId": "RSK-11",
+    "name": "Internal Ombudsman escalations tracked outside the case system",
+    "severity": "Medium",
+    "owner": "Customer Care",
+    "due": "2026-05-31",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-09",
+    "riskId": "RSK-02",
+    "name": "Alert backlog exceeds the 30-day SAR filing clock in two markets",
+    "severity": "Critical",
+    "owner": "FCC Investigations",
+    "due": "2026-01-15",
+    "status": "In progress"
+  },
+  {
+    "id": "ISS-10",
+    "riskId": "RSK-09",
+    "name": "Privileged access recertification overdue for four core platforms",
+    "severity": "High",
+    "owner": "IAM Team",
+    "due": "2026-02-20",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-11",
+    "riskId": "RSK-13",
+    "name": "Regulation B application files purged at 18 months in two branches",
+    "severity": "High",
+    "owner": "Information Governance",
+    "due": "2026-03-20",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-12",
+    "riskId": "RSK-14",
+    "name": "41 leavers kept access for more than 30 days",
+    "severity": "High",
+    "owner": "IAM Team",
+    "due": "2026-12-15",
+    "status": "In progress"
+  },
+  {
+    "id": "ISS-13",
+    "riskId": "RSK-16",
+    "name": "Restore test for the billing database failed",
+    "severity": "High",
+    "owner": "Infrastructure",
+    "due": "2026-12-20",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-14",
+    "riskId": "RSK-20",
+    "name": "Audits at 3 sites overdue by more than 60 days",
+    "severity": "Medium",
+    "owner": "Internal Audit",
+    "due": "2026-12-31",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-15",
+    "riskId": "RSK-21",
+    "name": "CAPA backlog: 27 actions overdue",
+    "severity": "Medium",
+    "owner": "Quality Office",
+    "due": "2027-01-15",
+    "status": "In progress"
+  },
+  {
+    "id": "ISS-16",
+    "riskId": "RSK-23",
+    "name": "Mock recall took 9 hours against a 4 hour target",
+    "severity": "High",
+    "owner": "Quality Office",
+    "due": "2026-12-30",
+    "status": "Open"
+  },
+  {
+    "id": "ISS-17",
+    "riskId": "RSK-24",
+    "name": "Access logs not reviewed for two clinics",
+    "severity": "Medium",
+    "owner": "Privacy Office",
+    "due": "2027-01-31",
+    "status": "Open"
+  }
+]

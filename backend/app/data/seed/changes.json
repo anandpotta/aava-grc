@@ -1,0 +1,150 @@
+[
+ {
+  "id": "CHG-01",
+  "juris": "hk",
+  "regulator": "HKMA",
+  "title": "AML/CFT Guideline amended: ongoing monitoring and PEP scope",
+  "published": "2026-11-04",
+  "effective": "2027-02-01",
+  "status": "Impact analysis",
+  "impact": "High",
+  "affectedCites": [
+   "AML/CFT Guideline Ch.4"
+  ],
+  "summary": "Chapter 4 is amended to require continuous rather than periodic monitoring for higher-risk relationships, and widens the definition of a politically exposed person to include domestic PEPs and their close associates.",
+  "diff": [
+   {
+    "kind": "unchanged",
+    "text": "An authorised institution should continuously monitor its business relationship with a customer,"
+   },
+   {
+    "kind": "removed",
+    "text": "review existing records periodically to ensure documents remain up to date"
+   },
+   {
+    "kind": "added",
+    "text": "review existing records on a continuous and event-driven basis to ensure documents, data and information remain up to date and relevant"
+   },
+   {
+    "kind": "unchanged",
+    "text": "and scrutinise complex or unusually large transactions."
+   },
+   {
+    "kind": "added",
+    "text": "For the purposes of this Chapter, a politically exposed person includes a domestic politically exposed person and their close associates."
+   }
+  ]
+ },
+ {
+  "id": "CHG-02",
+  "juris": "in",
+  "regulator": "RBI",
+  "title": "Draft direction on digital lending partnerships",
+  "published": "2026-11-02",
+  "effective": "2027-04-01",
+  "status": "Triaged",
+  "impact": "Medium",
+  "affectedCites": [
+   "DoR.FIN.REC.95"
+  ],
+  "summary": "Extends the key fact statement requirement to loans sourced through lending service providers and requires the all-inclusive annual percentage rate to be shown before the borrower consents.",
+  "diff": [
+   {
+    "kind": "unchanged",
+    "text": "Regulated entities shall provide a key fact statement to the borrower before execution of the contract,"
+   },
+   {
+    "kind": "added",
+    "text": "including where the loan is sourced or serviced through a lending service provider,"
+   },
+   {
+    "kind": "unchanged",
+    "text": "disclose the all-inclusive annual percentage rate,"
+   }
+  ]
+ },
+ {
+  "id": "CHG-03",
+  "juris": "eu",
+  "regulator": "EBA",
+  "title": "DORA incident reporting templates finalised",
+  "published": "2026-10-28",
+  "effective": "2027-01-17",
+  "status": "Assigned",
+  "impact": "High",
+  "affectedCites": [
+   "DORA Art.19"
+  ],
+  "summary": "The harmonised templates are final. The intermediate report window shortens from 72 to 48 hours and a new field set is required for third-party-originated incidents.",
+  "diff": [
+   {
+    "kind": "unchanged",
+    "text": "Financial entities shall report major ICT-related incidents to the competent authority using harmonised templates,"
+   },
+   {
+    "kind": "removed",
+    "text": "submitting an intermediate report within 72 hours"
+   },
+   {
+    "kind": "added",
+    "text": "submitting an intermediate report within 48 hours, and identifying whether the incident originated with a third-party provider"
+   }
+  ]
+ },
+ {
+  "id": "CHG-04",
+  "juris": "uk",
+  "regulator": "FCA",
+  "title": "Consumer Duty board report expectations clarified",
+  "published": "2026-10-21",
+  "effective": "2027-07-31",
+  "status": "New",
+  "impact": "Medium",
+  "affectedCites": [
+   "PRIN 2A"
+  ],
+  "summary": "The annual board report must now evidence outcomes for customers in vulnerable circumstances separately, with supporting data.",
+  "diff": [
+   {
+    "kind": "unchanged",
+    "text": "A firm must act to deliver good outcomes for retail customers"
+   },
+   {
+    "kind": "added",
+    "text": "and must evidence, separately, outcomes for customers in vulnerable circumstances in its annual board report."
+   }
+  ]
+ },
+ {
+  "id": "CHG-05",
+  "juris": "us",
+  "regulator": "CFPB",
+  "title": "Regulation B record retention period under review",
+  "published": "2026-10-09",
+  "effective": "2027-06-30",
+  "status": "New",
+  "impact": "Medium",
+  "affectedCites": [
+   "12 CFR 1002.12"
+  ],
+  "summary": "A proposal would extend the retention window for business-credit applications from 12 to 25 months, aligning it with consumer credit.",
+  "diff": [
+   {
+    "kind": "unchanged",
+    "text": "For 25 months"
+   },
+   {
+    "kind": "removed",
+    "text": "(12 months for business credit, except as provided in paragraph (b)(5) of this section)"
+   },
+   {
+    "kind": "added",
+    "text": "(25 months for business credit)"
+   },
+   {
+    "kind": "unchanged",
+    "text": "after the date that a creditor notifies an applicant of action taken on an application"
+   }
+  ]
+ }
+]

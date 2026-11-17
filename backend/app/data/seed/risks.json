@@ -1,0 +1,226 @@
+[
+  {
+    "id": "RSK-01",
+    "name": "Onboarding a customer without verified beneficial owner",
+    "ruleMatter": "KYC and CDD",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-02",
+    "name": "Failure to detect and report suspicious activity in time",
+    "ruleMatter": "AML / CFT",
+    "inherent": "Critical",
+    "residual": "High",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-03",
+    "name": "Sanctioned party payment released",
+    "ruleMatter": "Sanctions screening",
+    "inherent": "Critical",
+    "residual": "Medium",
+    "appetite": "Zero"
+  },
+  {
+    "id": "RSK-04",
+    "name": "Poor customer outcomes from product value mismatch",
+    "ruleMatter": "Consumer protection",
+    "inherent": "High",
+    "residual": "High",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-05",
+    "name": "Critical service disruption beyond impact tolerance",
+    "ruleMatter": "Operational resilience",
+    "inherent": "Critical",
+    "residual": "High",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-06",
+    "name": "Concentration risk in a single critical cloud provider",
+    "ruleMatter": "Outsourcing and third party",
+    "inherent": "High",
+    "residual": "High",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-07",
+    "name": "Personal data breach not notified within statutory deadline",
+    "ruleMatter": "Data privacy",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-08",
+    "name": "Payment data stored outside the permitted territory",
+    "ruleMatter": "Data localisation",
+    "inherent": "Critical",
+    "residual": "High",
+    "appetite": "Zero"
+  },
+  {
+    "id": "RSK-09",
+    "name": "Unauthorised privileged access to core systems",
+    "ruleMatter": "Cyber security",
+    "inherent": "Critical",
+    "residual": "Medium",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-10",
+    "name": "Inaccurate or late regulatory return",
+    "ruleMatter": "Regulatory reporting",
+    "inherent": "Medium",
+    "residual": "Low",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-11",
+    "name": "Unresolved complaints breaching statutory timelines",
+    "ruleMatter": "Complaints handling",
+    "inherent": "Medium",
+    "residual": "Medium",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-12",
+    "name": "Accountability gaps in senior manager responsibilities",
+    "ruleMatter": "Governance and accountability",
+    "inherent": "High",
+    "residual": "Low",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-13",
+    "name": "Credit application records destroyed before the retention period ends",
+    "ruleMatter": "Records and retention",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Low"
+  },
+  {
+    "id": "RSK-14",
+    "name": "Former staff keep access to production systems",
+    "ruleMatter": "Access control",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-15",
+    "name": "Untested change causes an outage or data loss",
+    "ruleMatter": "Change management",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-16",
+    "name": "Data cannot be restored after a failure",
+    "ruleMatter": "Availability and backup",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-17",
+    "name": "Confidential data exposed in transit or storage",
+    "ruleMatter": "Confidentiality and encryption",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-18",
+    "name": "Staff unaware of their obligations",
+    "ruleMatter": "People and training",
+    "inherent": "Medium",
+    "residual": "Low",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-19",
+    "name": "Defective output reaches the customer",
+    "ruleMatter": "Quality management",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-20",
+    "name": "Weaknesses found late or not at all",
+    "ruleMatter": "Internal audit programme",
+    "inherent": "Medium",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-21",
+    "name": "The same defect repeats",
+    "ruleMatter": "Corrective and preventive action",
+    "inherent": "Medium",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-22",
+    "name": "A supplier breaches standards unseen",
+    "ruleMatter": "Supply chain integrity",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-23",
+    "name": "An unsafe product reaches consumers",
+    "ruleMatter": "Product safety and recall",
+    "inherent": "Critical",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-24",
+    "name": "Patient data viewed without a need",
+    "ruleMatter": "Health information privacy",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-25",
+    "name": "Misleading price or refund delay",
+    "ruleMatter": "Online consumer rights",
+    "inherent": "Medium",
+    "residual": "Low",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-26",
+    "name": "Injury or spoiled goods in transit",
+    "ruleMatter": "Transport and warehouse safety",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-27",
+    "name": "Material misstatement in reports",
+    "ruleMatter": "Financial reporting controls",
+    "inherent": "High",
+    "residual": "Medium",
+    "appetite": "Medium"
+  },
+  {
+    "id": "RSK-28",
+    "name": "Emissions reported wrongly or not at all",
+    "ruleMatter": "Environmental and sustainability",
+    "inherent": "Medium",
+    "residual": "Medium",
+    "appetite": "Medium"
+  }
+]

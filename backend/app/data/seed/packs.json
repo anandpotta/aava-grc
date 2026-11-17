@@ -1,0 +1,938 @@
+{
+  "frameworks": [
+    {
+      "id": "soc2",
+      "name": "SOC 2 (Trust Services Criteria)",
+      "kind": "Attestation report",
+      "issuer": "AICPA",
+      "summary": "An independent auditor's report on how well a service organisation protects customer data. Customers of SaaS, cloud and payment platforms ask for it.",
+      "note": "Type I tests design at one date. Type II tests that controls worked every day over 3 to 12 months, so controls must be tested and effective for the whole period.",
+      "criteria": [
+        {
+          "id": "CC1",
+          "title": "Control environment and oversight",
+          "matter": "Governance and accountability",
+          "evidence": "Board and committee minutes, org chart, charter"
+        },
+        {
+          "id": "CC1.4",
+          "title": "Competence and training",
+          "matter": "People and training",
+          "evidence": "Training completion reports, screening records"
+        },
+        {
+          "id": "CC6.1",
+          "title": "Logical access",
+          "matter": "Access control",
+          "evidence": "Quarterly access review sign-offs, MFA settings, leaver tickets"
+        },
+        {
+          "id": "CC6.7",
+          "title": "Data protected in transit and at rest",
+          "matter": "Confidentiality and encryption",
+          "evidence": "Encryption configuration, key management records"
+        },
+        {
+          "id": "CC7.1",
+          "title": "Vulnerability and threat monitoring",
+          "matter": "Cyber security",
+          "evidence": "Scan reports, remediation tickets, pen-test report"
+        },
+        {
+          "id": "CC7.3",
+          "title": "Incident response",
+          "matter": "Operational resilience",
+          "evidence": "Incident log, post-incident reviews"
+        },
+        {
+          "id": "CC8.1",
+          "title": "Change management",
+          "matter": "Change management",
+          "evidence": "Change tickets with approvals, release logs"
+        },
+        {
+          "id": "CC9.2",
+          "title": "Vendor risk",
+          "matter": "Outsourcing and third party",
+          "evidence": "Vendor due diligence files, vendor SOC reports"
+        },
+        {
+          "id": "A1",
+          "title": "Availability",
+          "matter": "Availability and backup",
+          "evidence": "Uptime reports, backup restore test results"
+        },
+        {
+          "id": "C1",
+          "title": "Confidentiality: retention and disposal",
+          "matter": "Records and retention",
+          "evidence": "Retention schedule, disposal certificates"
+        },
+        {
+          "id": "P1-P8",
+          "title": "Privacy",
+          "matter": "Data privacy",
+          "evidence": "Privacy notice, consent and request logs"
+        },
+        {
+          "id": "PI1",
+          "title": "Processing integrity",
+          "matter": "Fraud and payments",
+          "evidence": "Reconciliations, error-handling logs"
+        }
+      ]
+    },
+    {
+      "id": "iso9001",
+      "name": "ISO 9001:2015 (Quality management)",
+      "kind": "Certification",
+      "issuer": "ISO, audited by an accredited certification body",
+      "summary": "Shows a customer that you run a documented, measured and continually improving quality system. Common for manufacturing, logistics, retail and services.",
+      "note": "A stage 1 audit reviews documents, stage 2 checks that you follow them. Certificates last three years with yearly surveillance audits.",
+      "criteria": [
+        {
+          "id": "4",
+          "title": "Context of the organisation",
+          "matter": "Governance and accountability",
+          "evidence": "Scope statement, interested-parties register"
+        },
+        {
+          "id": "5",
+          "title": "Leadership and quality policy",
+          "matter": "Conduct and culture",
+          "evidence": "Signed quality policy, management roles"
+        },
+        {
+          "id": "6",
+          "title": "Planning: risks and objectives",
+          "matter": "Quality management",
+          "evidence": "Risk register, quality objectives"
+        },
+        {
+          "id": "7.2",
+          "title": "Competence",
+          "matter": "People and training",
+          "evidence": "Training matrix and records"
+        },
+        {
+          "id": "7.5",
+          "title": "Documented information",
+          "matter": "Records and retention",
+          "evidence": "Document control log, record retention schedule"
+        },
+        {
+          "id": "8.4",
+          "title": "Control of external providers",
+          "matter": "Supply chain integrity",
+          "evidence": "Approved supplier list, supplier audits"
+        },
+        {
+          "id": "8.5",
+          "title": "Production and service provision",
+          "matter": "Quality management",
+          "evidence": "Work instructions, inspection records"
+        },
+        {
+          "id": "9.1.2",
+          "title": "Customer satisfaction",
+          "matter": "Complaints handling",
+          "evidence": "Survey results, complaint log"
+        },
+        {
+          "id": "9.2",
+          "title": "Internal audit",
+          "matter": "Internal audit programme",
+          "evidence": "Audit plan, reports, follow-ups"
+        },
+        {
+          "id": "9.3",
+          "title": "Management review",
+          "matter": "Governance and accountability",
+          "evidence": "Management review minutes and actions"
+        },
+        {
+          "id": "10.2",
+          "title": "Nonconformity and corrective action",
+          "matter": "Corrective and preventive action",
+          "evidence": "CAPA register with root cause and closure evidence"
+        }
+      ]
+    },
+    {
+      "id": "iso27001",
+      "name": "ISO/IEC 27001:2022 (Information security)",
+      "kind": "Certification",
+      "issuer": "ISO, audited by an accredited certification body",
+      "summary": "A certified information security management system. Often the first certificate an enterprise buyer asks for.",
+      "note": "Needs a scoped ISMS, a Statement of Applicability, risk treatment and an internal audit before the certification audit.",
+      "criteria": [
+        {
+          "id": "5",
+          "title": "Leadership and information security policy",
+          "matter": "Governance and accountability",
+          "evidence": "Signed policy, roles and responsibilities"
+        },
+        {
+          "id": "A.5",
+          "title": "Organisational controls",
+          "matter": "Cyber security",
+          "evidence": "Control library, test results"
+        },
+        {
+          "id": "A.5.15",
+          "title": "Access control",
+          "matter": "Access control",
+          "evidence": "Access review records"
+        },
+        {
+          "id": "A.5.19",
+          "title": "Supplier relationships",
+          "matter": "Outsourcing and third party",
+          "evidence": "Supplier assessments and contracts"
+        },
+        {
+          "id": "A.5.24",
+          "title": "Incident management",
+          "matter": "Operational resilience",
+          "evidence": "Incident plan, exercise records"
+        },
+        {
+          "id": "A.5.34",
+          "title": "Privacy and PII protection",
+          "matter": "Data privacy",
+          "evidence": "Privacy impact assessments"
+        },
+        {
+          "id": "A.6.3",
+          "title": "Awareness and training",
+          "matter": "People and training",
+          "evidence": "Training records"
+        },
+        {
+          "id": "A.8.13",
+          "title": "Backup",
+          "matter": "Availability and backup",
+          "evidence": "Restore test records"
+        },
+        {
+          "id": "A.8.24",
+          "title": "Use of cryptography",
+          "matter": "Confidentiality and encryption",
+          "evidence": "Encryption standard, key inventory"
+        },
+        {
+          "id": "A.8.32",
+          "title": "Change management",
+          "matter": "Change management",
+          "evidence": "Approved change records"
+        },
+        {
+          "id": "9.2",
+          "title": "Internal audit",
+          "matter": "Internal audit programme",
+          "evidence": "ISMS audit reports"
+        }
+      ]
+    },
+    {
+      "id": "pcidss",
+      "name": "PCI DSS v4.0 (Card payments)",
+      "kind": "Compliance standard",
+      "issuer": "PCI Security Standards Council",
+      "summary": "Required for anyone who stores, processes or transmits payment card data: retailers, e-commerce, banks, payment platforms.",
+      "note": "Validated by a Qualified Security Assessor or a self-assessment depending on volume.",
+      "criteria": [
+        {
+          "id": "1-2",
+          "title": "Secure network and configuration",
+          "matter": "Cyber security",
+          "evidence": "Firewall rules, hardening standards"
+        },
+        {
+          "id": "3-4",
+          "title": "Protect account data",
+          "matter": "Confidentiality and encryption",
+          "evidence": "Data flow diagram, encryption evidence"
+        },
+        {
+          "id": "5-6",
+          "title": "Malware and secure development",
+          "matter": "Change management",
+          "evidence": "Code review and release records"
+        },
+        {
+          "id": "7-8",
+          "title": "Restrict and authenticate access",
+          "matter": "Access control",
+          "evidence": "Access matrix, MFA evidence"
+        },
+        {
+          "id": "10",
+          "title": "Log and monitor",
+          "matter": "Records and retention",
+          "evidence": "Log retention, review evidence"
+        },
+        {
+          "id": "11",
+          "title": "Test security regularly",
+          "matter": "Cyber security",
+          "evidence": "Scan and pen-test reports"
+        },
+        {
+          "id": "12",
+          "title": "Policies and third parties",
+          "matter": "Outsourcing and third party",
+          "evidence": "Service provider list and responsibility matrix"
+        },
+        {
+          "id": "Fraud",
+          "title": "Payment fraud controls",
+          "matter": "Fraud and payments",
+          "evidence": "Fraud rules and monitoring reports"
+        }
+      ]
+    },
+    {
+      "id": "hipaa",
+      "name": "HIPAA Security and Privacy Rules",
+      "kind": "Regulation (US)",
+      "issuer": "US HHS Office for Civil Rights",
+      "summary": "Protects patient health information for hospitals, clinics, insurers and their vendors.",
+      "note": "No certificate exists. Regulators and customers ask for risk analysis, policies and evidence of safeguards.",
+      "criteria": [
+        {
+          "id": "164.308",
+          "title": "Administrative safeguards and risk analysis",
+          "matter": "Governance and accountability",
+          "evidence": "Risk analysis, workforce policies"
+        },
+        {
+          "id": "164.312(a)",
+          "title": "Access control",
+          "matter": "Access control",
+          "evidence": "Unique user IDs, role design"
+        },
+        {
+          "id": "164.312(b)",
+          "title": "Audit controls",
+          "matter": "Health information privacy",
+          "evidence": "PHI access logs and reviews"
+        },
+        {
+          "id": "164.312(e)",
+          "title": "Transmission security",
+          "matter": "Confidentiality and encryption",
+          "evidence": "Encryption standard"
+        },
+        {
+          "id": "164.308(a)(7)",
+          "title": "Contingency plan",
+          "matter": "Availability and backup",
+          "evidence": "Backup and disaster recovery tests"
+        },
+        {
+          "id": "164.404",
+          "title": "Breach notification",
+          "matter": "Data privacy",
+          "evidence": "Breach procedure and notification log"
+        },
+        {
+          "id": "164.308(a)(5)",
+          "title": "Security awareness training",
+          "matter": "People and training",
+          "evidence": "Training records"
+        }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "name": "GDPR (EU data protection)",
+      "kind": "Regulation (EU)",
+      "issuer": "EU, enforced by national authorities",
+      "summary": "Applies to any organisation handling personal data of people in the EU.",
+      "note": "Fines up to 4% of global turnover. Accountability means you must be able to prove what you do.",
+      "criteria": [
+        {
+          "id": "Art.5",
+          "title": "Principles and accountability",
+          "matter": "Data privacy",
+          "evidence": "Records of processing, DPIAs"
+        },
+        {
+          "id": "Art.28",
+          "title": "Processors",
+          "matter": "Outsourcing and third party",
+          "evidence": "Data processing agreements"
+        },
+        {
+          "id": "Art.30",
+          "title": "Records of processing",
+          "matter": "Records and retention",
+          "evidence": "Processing register"
+        },
+        {
+          "id": "Art.32",
+          "title": "Security of processing",
+          "matter": "Cyber security",
+          "evidence": "Security measures and tests"
+        },
+        {
+          "id": "Art.33",
+          "title": "Breach notification within 72 hours",
+          "matter": "Operational resilience",
+          "evidence": "Breach plan and exercises"
+        },
+        {
+          "id": "Ch.V",
+          "title": "International transfers",
+          "matter": "Data localisation",
+          "evidence": "Transfer assessments and clauses"
+        }
+      ]
+    },
+    {
+      "id": "sox",
+      "name": "SOX 404 (Financial reporting controls)",
+      "kind": "Regulation (US)",
+      "issuer": "US SEC and PCAOB",
+      "summary": "Listed companies must show controls over financial reporting work, including the IT systems behind them.",
+      "note": "Management tests controls each year and the external auditor attests.",
+      "criteria": [
+        {
+          "id": "ICFR",
+          "title": "Financial close and reporting controls",
+          "matter": "Financial reporting controls",
+          "evidence": "Reconciliations, approvals"
+        },
+        {
+          "id": "ITGC-Access",
+          "title": "IT general controls: access",
+          "matter": "Access control",
+          "evidence": "Access reviews for finance systems"
+        },
+        {
+          "id": "ITGC-Change",
+          "title": "IT general controls: change",
+          "matter": "Change management",
+          "evidence": "Change approvals for finance systems"
+        },
+        {
+          "id": "ITGC-Ops",
+          "title": "IT general controls: backup",
+          "matter": "Availability and backup",
+          "evidence": "Restore tests"
+        },
+        {
+          "id": "Entity",
+          "title": "Entity-level and governance",
+          "matter": "Governance and accountability",
+          "evidence": "Audit committee oversight"
+        }
+      ]
+    },
+    {
+      "id": "iso22301",
+      "name": "ISO 22301 (Business continuity)",
+      "kind": "Certification",
+      "issuer": "ISO",
+      "summary": "Proves you can keep critical services running through disruption.",
+      "note": "Built on impact analysis, continuity plans and exercises.",
+      "criteria": [
+        {
+          "id": "8.2",
+          "title": "Business impact analysis and risk",
+          "matter": "Operational resilience",
+          "evidence": "BIA and recovery objectives"
+        },
+        {
+          "id": "8.4",
+          "title": "Continuity plans",
+          "matter": "Availability and backup",
+          "evidence": "Recovery plans and tests"
+        },
+        {
+          "id": "7.2",
+          "title": "Competence and exercises",
+          "matter": "People and training",
+          "evidence": "Exercise attendance records"
+        },
+        {
+          "id": "8.1",
+          "title": "Suppliers and dependencies",
+          "matter": "Outsourcing and third party",
+          "evidence": "Dependency map"
+        },
+        {
+          "id": "9.2",
+          "title": "Internal audit",
+          "matter": "Internal audit programme",
+          "evidence": "BCMS audit reports"
+        }
+      ]
+    },
+    {
+      "id": "foodsafety",
+      "name": "ISO 22000 / HACCP / FSMA (Food and product safety)",
+      "kind": "Certification and regulation",
+      "issuer": "ISO, Codex, US FDA",
+      "summary": "For food, beverage and consumer goods makers and retailers: prevent unsafe product and recall fast.",
+      "note": "Traceability one step back and one step forward is the usual test.",
+      "criteria": [
+        {
+          "id": "Hazard",
+          "title": "Hazard analysis and critical controls",
+          "matter": "Product safety and recall",
+          "evidence": "HACCP plan, monitoring records"
+        },
+        {
+          "id": "Trace",
+          "title": "Traceability and recall",
+          "matter": "Product safety and recall",
+          "evidence": "Mock recall results"
+        },
+        {
+          "id": "Supplier",
+          "title": "Supplier approval",
+          "matter": "Supply chain integrity",
+          "evidence": "Supplier audits"
+        },
+        {
+          "id": "Quality",
+          "title": "Prerequisite programmes",
+          "matter": "Quality management",
+          "evidence": "SOPs and inspections"
+        },
+        {
+          "id": "Records",
+          "title": "Records",
+          "matter": "Records and retention",
+          "evidence": "Batch records retention"
+        }
+      ]
+    },
+    {
+      "id": "logistics",
+      "name": "Logistics and cold-chain (ISO 28000, GDP, ISO 45001)",
+      "kind": "Certification and good practice",
+      "issuer": "ISO, WHO and EU GDP guidance",
+      "summary": "Secure, safe and traceable movement and storage of goods, including temperature-controlled loads.",
+      "note": "Evidence is mostly logs: temperature, driver hours, inspections.",
+      "criteria": [
+        {
+          "id": "Safety",
+          "title": "Warehouse and fleet safety",
+          "matter": "Transport and warehouse safety",
+          "evidence": "Inspection and incident logs"
+        },
+        {
+          "id": "Chain",
+          "title": "Supply chain security",
+          "matter": "Supply chain integrity",
+          "evidence": "Carrier and supplier screening"
+        },
+        {
+          "id": "Records",
+          "title": "Shipment records",
+          "matter": "Records and retention",
+          "evidence": "Proof of delivery and temperature logs"
+        },
+        {
+          "id": "Resilience",
+          "title": "Disruption planning",
+          "matter": "Operational resilience",
+          "evidence": "Continuity plans"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce consumer protection",
+      "kind": "Regulation",
+      "issuer": "EU Consumer Rights Directive, FTC, national laws",
+      "summary": "Honest pricing and promotions, clear returns and refunds, safe handling of customer data.",
+      "note": "Marketplaces also carry duties for third-party sellers.",
+      "criteria": [
+        {
+          "id": "Pricing",
+          "title": "Pricing and promotions",
+          "matter": "Online consumer rights",
+          "evidence": "Price checks"
+        },
+        {
+          "id": "Returns",
+          "title": "Returns and refunds",
+          "matter": "Online consumer rights",
+          "evidence": "Refund time reports"
+        },
+        {
+          "id": "Complaints",
+          "title": "Complaint handling",
+          "matter": "Complaints handling",
+          "evidence": "Complaint log"
+        },
+        {
+          "id": "Privacy",
+          "title": "Customer data",
+          "matter": "Data privacy",
+          "evidence": "Privacy notice and requests"
+        },
+        {
+          "id": "Payments",
+          "title": "Card payments",
+          "matter": "Fraud and payments",
+          "evidence": "PCI attestation"
+        }
+      ]
+    },
+    {
+      "id": "iso14001",
+      "name": "ISO 14001 / ESG reporting",
+      "kind": "Certification and reporting",
+      "issuer": "ISO, CSRD, GHG Protocol",
+      "summary": "Measure and reduce environmental impact and report it credibly.",
+      "note": "Increasingly requested by retail and CPG customers of their suppliers.",
+      "criteria": [
+        {
+          "id": "Policy",
+          "title": "Environmental policy and objectives",
+          "matter": "Environmental and sustainability",
+          "evidence": "Signed policy and targets"
+        },
+        {
+          "id": "Data",
+          "title": "Emissions and energy data",
+          "matter": "Environmental and sustainability",
+          "evidence": "Data collection and checks"
+        },
+        {
+          "id": "Supply",
+          "title": "Supplier environmental screening",
+          "matter": "Supply chain integrity",
+          "evidence": "Supplier questionnaires"
+        }
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "id": "banking",
+      "name": "Banking and financial services",
+      "frameworks": [
+        "iso27001",
+        "pcidss",
+        "soc2",
+        "gdpr",
+        "sox",
+        "iso22301"
+      ],
+      "regulators": [
+        "RBI",
+        "FCA",
+        "FinCEN",
+        "MAS",
+        "HKMA",
+        "ECB / EBA"
+      ],
+      "watch": [
+        "KYC and CDD",
+        "AML / CFT",
+        "Sanctions screening",
+        "Operational resilience",
+        "Outsourcing and third party"
+      ],
+      "why": "Money laundering, resilience and third-party concentration drive most enforcement."
+    },
+    {
+      "id": "retail",
+      "name": "Retail",
+      "frameworks": [
+        "pcidss",
+        "iso9001",
+        "gdpr",
+        "foodsafety",
+        "iso14001"
+      ],
+      "regulators": [
+        "FTC",
+        "Trading standards",
+        "Data protection authorities",
+        "Food safety authorities"
+      ],
+      "watch": [
+        "Online consumer rights",
+        "Fraud and payments",
+        "Supply chain integrity",
+        "Product safety and recall"
+      ],
+      "why": "Card data, pricing honesty, product safety and supplier ethics."
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce and marketplaces",
+      "frameworks": [
+        "ecommerce",
+        "pcidss",
+        "soc2",
+        "gdpr",
+        "iso27001"
+      ],
+      "regulators": [
+        "FTC",
+        "EU Digital Services Act",
+        "Consumer authorities"
+      ],
+      "watch": [
+        "Online consumer rights",
+        "Data privacy",
+        "Fraud and payments",
+        "Availability and backup"
+      ],
+      "why": "Customer trust, payments and uptime on peak days."
+    },
+    {
+      "id": "supply",
+      "name": "Supply chain",
+      "frameworks": [
+        "iso9001",
+        "logistics",
+        "iso14001",
+        "iso27001"
+      ],
+      "regulators": [
+        "Customs authorities",
+        "Forced-labour and due diligence laws"
+      ],
+      "watch": [
+        "Supply chain integrity",
+        "Quality management",
+        "Environmental and sustainability"
+      ],
+      "why": "Visibility of tiers below your direct supplier."
+    },
+    {
+      "id": "logistics",
+      "name": "Logistics and transport",
+      "frameworks": [
+        "logistics",
+        "iso9001",
+        "iso27001"
+      ],
+      "regulators": [
+        "Transport authorities",
+        "Customs",
+        "Workplace safety regulators"
+      ],
+      "watch": [
+        "Transport and warehouse safety",
+        "Supply chain integrity",
+        "Operational resilience"
+      ],
+      "why": "Safety, cold chain and delivery evidence."
+    },
+    {
+      "id": "health",
+      "name": "Healthcare and life sciences",
+      "frameworks": [
+        "hipaa",
+        "iso27001",
+        "soc2",
+        "gdpr",
+        "iso9001"
+      ],
+      "regulators": [
+        "HHS OCR",
+        "FDA",
+        "EMA",
+        "NHS Digital"
+      ],
+      "watch": [
+        "Health information privacy",
+        "Access control",
+        "Availability and backup",
+        "Corrective and preventive action"
+      ],
+      "why": "Patient data, patient safety and quality records."
+    },
+    {
+      "id": "cpg",
+      "name": "Consumer packaged goods (CPG)",
+      "frameworks": [
+        "foodsafety",
+        "iso9001",
+        "iso14001",
+        "gdpr"
+      ],
+      "regulators": [
+        "FDA",
+        "EFSA",
+        "Packaging and labelling authorities"
+      ],
+      "watch": [
+        "Product safety and recall",
+        "Supply chain integrity",
+        "Quality management"
+      ],
+      "why": "Recall speed, labelling and supplier provenance."
+    },
+    {
+      "id": "tech",
+      "name": "Technology and SaaS",
+      "frameworks": [
+        "soc2",
+        "iso27001",
+        "gdpr",
+        "iso22301",
+        "hipaa"
+      ],
+      "regulators": [
+        "Data protection authorities",
+        "Customers' security teams"
+      ],
+      "watch": [
+        "Access control",
+        "Change management",
+        "Availability and backup",
+        "Data privacy"
+      ],
+      "why": "Customers ask for a SOC 2 or ISO 27001 report before they sign."
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing",
+      "frameworks": [
+        "iso9001",
+        "iso14001",
+        "iso22301",
+        "iso27001"
+      ],
+      "regulators": [
+        "Workplace safety regulators",
+        "Environmental agencies"
+      ],
+      "watch": [
+        "Quality management",
+        "Corrective and preventive action",
+        "Environmental and sustainability"
+      ],
+      "why": "Defects repeating and environmental reporting."
+    },
+    {
+      "id": "insurance",
+      "name": "Insurance",
+      "frameworks": [
+        "iso27001",
+        "gdpr",
+        "sox",
+        "iso22301",
+        "soc2"
+      ],
+      "regulators": [
+        "NAIC",
+        "PRA",
+        "IRDAI",
+        "EIOPA"
+      ],
+      "watch": [
+        "Regulatory reporting",
+        "Consumer protection",
+        "Outsourcing and third party"
+      ],
+      "why": "Fair treatment of policyholders and solvency reporting."
+    }
+  ],
+  "kinds": [
+    "Application",
+    "Product",
+    "Platform",
+    "Process",
+    "Vendor",
+    "Site or facility",
+    "Business unit",
+    "Whole organisation",
+    "Industry"
+  ],
+  "standards": {
+    "Access control": [
+      "ISO/IEC 27001 A.5.15",
+      "SOC 2 CC6.1",
+      "PCI DSS Req 7-8"
+    ],
+    "Change management": [
+      "ISO/IEC 27001 A.8.32",
+      "SOC 2 CC8.1",
+      "SOX ITGC"
+    ],
+    "Availability and backup": [
+      "ISO/IEC 27001 A.8.13",
+      "SOC 2 A1",
+      "ISO 22301"
+    ],
+    "Confidentiality and encryption": [
+      "ISO/IEC 27001 A.8.24",
+      "SOC 2 C1",
+      "PCI DSS Req 3-4"
+    ],
+    "People and training": [
+      "ISO 9001 7.2",
+      "ISO/IEC 27001 A.6.3",
+      "SOC 2 CC1.4"
+    ],
+    "Quality management": [
+      "ISO 9001:2015 clauses 4 to 8"
+    ],
+    "Internal audit programme": [
+      "ISO 9001 9.2",
+      "IIA Standards"
+    ],
+    "Corrective and preventive action": [
+      "ISO 9001 10.2",
+      "ISO 13485 8.5"
+    ],
+    "Supply chain integrity": [
+      "ISO 28000",
+      "OECD due diligence guidance"
+    ],
+    "Product safety and recall": [
+      "ISO 22000",
+      "HACCP",
+      "GS1 traceability"
+    ],
+    "Health information privacy": [
+      "HIPAA Privacy Rule",
+      "HITRUST CSF"
+    ],
+    "Online consumer rights": [
+      "EU Consumer Rights Directive",
+      "FTC Act section 5"
+    ],
+    "Transport and warehouse safety": [
+      "ISO 45001",
+      "GDP cold chain"
+    ],
+    "Financial reporting controls": [
+      "SOX section 404",
+      "COSO internal control 2013"
+    ],
+    "Environmental and sustainability": [
+      "ISO 14001",
+      "GHG Protocol"
+    ]
+  },
+  "what": {
+    "Access control": "Only the right people have access, and it is removed when they leave",
+    "Change management": "Changes are reviewed and approved before they reach production",
+    "Availability and backup": "Services stay up and data can be restored",
+    "Confidentiality and encryption": "Sensitive data is classified and encrypted",
+    "People and training": "People are screened, trained and know what is expected",
+    "Quality management": "Work is documented, controlled and measured against quality objectives",
+    "Internal audit programme": "We check ourselves on a plan before an outsider does",
+    "Corrective and preventive action": "Problems are fixed at the root and do not repeat",
+    "Supply chain integrity": "Know and audit who supplies us, down the chain",
+    "Product safety and recall": "Trace any batch and recall fast if something is unsafe",
+    "Health information privacy": "Patient data is seen only by those who need it, and access is reviewed",
+    "Online consumer rights": "Prices, promotions and returns are honest and on time",
+    "Transport and warehouse safety": "Goods and people are safe in storage and transit",
+    "Financial reporting controls": "The numbers are right and nobody can approve their own entries",
+    "Environmental and sustainability": "Measure, report and reduce environmental impact"
+  }
+}

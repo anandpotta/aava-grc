@@ -1,0 +1,42 @@
+[
+ {
+  "id": "gdpr",
+  "name": "GDPR",
+  "sub": "EU data protection"
+ },
+ {
+  "id": "hipaa",
+  "name": "HIPAA",
+  "sub": "US health privacy"
+ },
+ {
+  "id": "dpdp",
+  "name": "DPDP Act",
+  "sub": "India data protection"
+ },
+ {
+  "id": "pcidss",
+  "name": "PCI DSS 4.0",
+  "sub": "Card data security"
+ },
+ {
+  "id": "basel",
+  "name": "Basel III / IV",
+  "sub": "Capital and liquidity"
+ },
+ {
+  "id": "nistcsf",
+  "name": "NIST CSF 2.0",
+  "sub": "Cyber framework"
+ },
+ {
+  "id": "fatf",
+  "name": "FATF 40 Recommendations",
+  "sub": "AML/CFT standards"
+ },
+ {
+  "id": "dora",
+  "name": "DORA",
+  "sub": "EU operational resilience"
+ }
+]

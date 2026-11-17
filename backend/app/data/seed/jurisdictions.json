@@ -1,0 +1,74 @@
+[
+ {
+  "id": "us",
+  "name": "US regulations",
+  "short": "US",
+  "regulators": "FinCEN · OCC · CFPB · SEC"
+ },
+ {
+  "id": "ca",
+  "name": "Canada",
+  "short": "CA",
+  "regulators": "OSFI · FINTRAC · FCAC"
+ },
+ {
+  "id": "uk",
+  "name": "United Kingdom",
+  "short": "UK",
+  "regulators": "FCA · PRA · ICO"
+ },
+ {
+  "id": "eu",
+  "name": "European Union",
+  "short": "EU",
+  "regulators": "EBA · ECB · EDPB"
+ },
+ {
+  "id": "in",
+  "name": "India",
+  "short": "IN",
+  "regulators": "RBI · SEBI · MeitY"
+ },
+ {
+  "id": "cn",
+  "name": "China",
+  "short": "CN",
+  "regulators": "PBoC · NFRA · CAC"
+ },
+ {
+  "id": "jp",
+  "name": "Japan",
+  "short": "JP",
+  "regulators": "JFSA · PPC"
+ },
+ {
+  "id": "hk",
+  "name": "Hong Kong",
+  "short": "HK",
+  "regulators": "HKMA · SFC · PCPD"
+ },
+ {
+  "id": "kr",
+  "name": "South Korea",
+  "short": "KR",
+  "regulators": "FSC · FSS · PIPC"
+ },
+ {
+  "id": "sg",
+  "name": "Singapore",
+  "short": "SG",
+  "regulators": "MAS · PDPC"
+ },
+ {
+  "id": "sa",
+  "name": "Saudi Arabia",
+  "short": "SA",
+  "regulators": "SAMA · CMA"
+ },
+ {
+  "id": "af",
+  "name": "Africa (ZA, NG, KE)",
+  "short": "AF",
+  "regulators": "SARB · CBN · CBK"
+ }
+]

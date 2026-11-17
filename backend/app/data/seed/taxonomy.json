@@ -1,0 +1,33 @@
+{
+ "ruleMatters": [
+  "AML / CFT",
+  "KYC and CDD",
+  "Sanctions screening",
+  "Consumer protection",
+  "Capital and liquidity",
+  "Outsourcing and third party",
+  "Operational resilience",
+  "Data privacy",
+  "Data localisation",
+  "Conduct and culture",
+  "Regulatory reporting",
+  "Fraud and payments",
+  "Cyber security",
+  "Governance and accountability",
+  "Complaints handling",
+  "Records and retention"
+ ],
+ "ruleTypes": [
+  "Act / Statute",
+  "Regulation",
+  "Rule",
+  "Master Direction",
+  "Guideline",
+  "Circular",
+  "Supervisory expectation",
+  "Code of practice",
+  "Standard",
+  "Notice",
+  "Directive"
+ ]
+}

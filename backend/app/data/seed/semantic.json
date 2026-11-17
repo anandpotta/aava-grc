@@ -1,0 +1,96 @@
+{
+ "beneficial owner": [
+  "ultimate beneficial owner",
+  "ubo",
+  "ownership structure",
+  "control person",
+  "legal entity customer"
+ ],
+ "customer due diligence": [
+  "cdd",
+  "kyc",
+  "identity verification",
+  "onboarding checks",
+  "officially valid document"
+ ],
+ "suspicious": [
+  "suspicious activity report",
+  "sar",
+  "str",
+  "unusual transaction",
+  "red flag"
+ ],
+ "sanctions": [
+  "screening",
+  "blocked property",
+  "ofac",
+  "watchlist",
+  "designated person"
+ ],
+ "outsourcing": [
+  "third party",
+  "service provider",
+  "vendor",
+  "material arrangement",
+  "exit plan"
+ ],
+ "resilience": [
+  "important business service",
+  "impact tolerance",
+  "scenario testing",
+  "business continuity",
+  "critical operation"
+ ],
+ "privacy": [
+  "personal data",
+  "data subject",
+  "breach notification",
+  "processing record",
+  "dpia"
+ ],
+ "localisation": [
+  "data residency",
+  "cross-border transfer",
+  "in-country storage",
+  "security assessment"
+ ],
+ "cyber": [
+  "information security",
+  "vapt",
+  "encryption",
+  "privileged access",
+  "patching"
+ ],
+ "complaint": [
+  "grievance",
+  "redressal",
+  "ombudsman",
+  "dispute resolution"
+ ],
+ "capital": [
+  "own funds",
+  "cet1",
+  "capital adequacy",
+  "risk exposure amount"
+ ],
+ "authentication": [
+  "strong customer authentication",
+  "multi-factor",
+  "sca",
+  "remote channel"
+ ],
+ "governance": [
+  "board oversight",
+  "senior manager",
+  "accountability",
+  "responsibilities map",
+  "risk appetite"
+ ],
+ "retention": [
+  "record keeping",
+  "retention period",
+  "preserve records",
+  "archive",
+  "25 months"
+ ]
+}

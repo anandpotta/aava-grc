@@ -1,0 +1,193 @@
+{
+ "disclaimer": "Illustrative example. The bank, people and times are fictional. Figures marked target are what we design for, not measured results.",
+ "title": "Monday 09:10. The regulator changed the rule.",
+ "tagline": "From a regulator's notice to a signed-off, evidenced response, with a named person approving every release.",
+ "institution": "Northbridge Bank (fictional), Hong Kong, 4 jurisdictions, 3 lines of defence",
+ "trigger": {
+  "text": "The HKMA amends the AML/CFT Guideline: ongoing monitoring now covers domestic politically exposed persons, with annual enhanced due diligence approved by senior management. Effective 2027-02-01.",
+  "ref": "CHG-01"
+ },
+ "steps": [
+  {
+   "n": 1,
+   "time": "09:10",
+   "mode": "Watch",
+   "agent": "Horizon Scanner",
+   "title": "The change is caught the day it is published",
+   "what": "A standing watch on the HKMA corpus detects the amended guideline within minutes and opens CHG-01.",
+   "human": "Nobody had to remember to check.",
+   "run": "change"
+  },
+  {
+   "n": 2,
+   "time": "09:11",
+   "mode": "Ask",
+   "agent": "Change Analyst and Obligation Extractor",
+   "title": "What exactly changed, in words and duties",
+   "what": "A word-level redline against the stored clause, and 3 duties re-extracted, 2 of them new.",
+   "human": "Compliance reads a redline, not a 60-page PDF.",
+   "run": "change"
+  },
+  {
+   "n": 3,
+   "time": "09:12",
+   "mode": "Ask",
+   "agent": "Semantic Mapper",
+   "title": "Does our policy already cover it",
+   "what": "Every duty is matched to POL-01 by meaning, not keywords. Monitoring is covered. Nothing in the policy mentions politically exposed persons.",
+   "human": "The gap is found with evidence: the rule text beside the policy clause.",
+   "run": "map"
+  },
+  {
+   "n": 4,
+   "time": "09:12",
+   "mode": "Ask",
+   "agent": "Impact Scorer",
+   "title": "How much does it matter",
+   "what": "Materiality 80, gap 50, urgency 75, so impact 68 out of 100 with 75 days left.",
+   "human": "A number leaders can challenge, with the formula shown.",
+   "run": "change"
+  },
+  {
+   "n": 5,
+   "time": "09:13",
+   "mode": "Act",
+   "agent": "Remediation Planner",
+   "title": "A plan, not a to-do",
+   "what": "Policy amendment, control change, training and evidence actions, each with an owner and a date before 2027-02-01.",
+   "human": "The Group Head of FCC (Gate 2) and the CCO (Gate 3) are asked. Nothing is released until they say yes.",
+   "run": "coordinate"
+  },
+  {
+   "n": 6,
+   "time": "09:15",
+   "mode": "Act",
+   "agent": "Stakeholder Router",
+   "title": "The right people hear, and only them",
+   "what": "RACI routing notifies 5 people: Accountable, Responsible, Consulted, Informed, with reasons and due times. Decisions happen in the thread.",
+   "human": "Nobody is spammed. Nobody is missed. Nobody approves their own request.",
+   "run": "coordinate"
+  },
+  {
+   "n": 7,
+   "time": "Day 30",
+   "mode": "Watch",
+   "agent": "Watcher",
+   "title": "It keeps watching until it is closed",
+   "what": "Open actions, evidence due dates and slippage are tracked. Overdue items escalate up the RACI chain.",
+   "human": "Leadership sees status, not a chase.",
+   "run": "watch"
+  },
+  {
+   "n": 8,
+   "time": "Audit day",
+   "mode": "Act",
+   "agent": "Share and audit room",
+   "title": "The auditor gets exactly what was released",
+   "what": "A fingerprinted pack, approved at Gate 3, appears in the read-only audit room. The audit trail is hash-chained and verifiable.",
+   "human": "The evidence was made while the work happened, not reconstructed afterwards.",
+   "run": "watch"
+  }
+ ],
+ "compare": [
+  {
+   "q": "Time from publication to a mapped, scored impact",
+   "before": "Days to weeks (target to confirm in pilot)",
+   "after": "Minutes (target)"
+  },
+  {
+   "q": "Who finds out",
+   "before": "Whoever reads the circular",
+   "after": "Everyone on the RACI, with the reason"
+  },
+  {
+   "q": "Evidence for the auditor",
+   "before": "Rebuilt from email and spreadsheets",
+   "after": "Produced as the work happens, tamper-evident"
+  },
+  {
+   "q": "Control over release",
+   "before": "Informal",
+   "after": "Named approvers, separation of duties"
+  }
+ ],
+ "narration": [
+  {
+   "beat": "Open",
+   "say": "It is Monday morning. The regulator has just changed a rule that touches how every politically exposed customer is monitored. In most banks, someone finds out by accident, a week later, from a law firm newsletter."
+  },
+  {
+   "beat": "The turn",
+   "say": "In our platform, the change was caught at 09:10, compared word for word with what we already hold, and turned into three duties by 09:11. By 09:12 it told us the one thing we needed to know: our monitoring wording is fine, but our policy never mentions politically exposed persons. That is a real gap, shown with the rule on one side and our policy on the other."
+  },
+  {
+   "beat": "Agentic, with a human",
+   "say": "It then does what an analyst would do next. It scores the impact, 68 out of 100, shows the formula, drafts the remediation plan with owners and dates, and works out who needs to know and why. And it stops. The plan needs the Group Head of FCC and the Chief Compliance Officer. The platform acts, but it never acts alone."
+  },
+  {
+   "beat": "Proof",
+   "say": "Weeks later it is still watching. When the auditor arrives, they open a read-only room and see exactly what was approved, by whom, and when. The record cannot be quietly changed, because it is hash-chained."
+  },
+  {
+   "beat": "Close",
+   "say": "Every GRC tool can tell you what the rule says. Ours understands what it means for your policies, acts on it, and proves it. The same engine works for SOC 2, ISO 9001, retail, banking or healthcare, because the rules and the evidence change but the work does not."
+  }
+ ],
+ "usp": [
+  "One chain from the rule to the control to the evidence, not three separate tools.",
+  "Agents that act, with a named human approving every release and no self-approval.",
+  "Explainable: every score shows its formula, every match shows both texts.",
+  "Evidence is a by-product of the work, tamper-evident, ready for any auditor.",
+  "Built on AAVA: new regulations, frameworks and industries are configuration, not projects."
+ ],
+ "problems": [
+  {
+   "group": "Regulatory change",
+   "items": [
+    "A regulator publishes a new or amended rule",
+    "Several jurisdictions change at once and we cannot tell which matters",
+    "Nobody knows whether our policy already covers it"
+   ]
+  },
+  {
+   "group": "Policies and controls",
+   "items": [
+    "Policies drift away from the rules they were written for",
+    "Controls exist but cannot be traced to an obligation",
+    "Duplicate or orphan controls nobody can justify"
+   ]
+  },
+  {
+   "group": "Audit and certification",
+   "items": [
+    "SOC 2, ISO 27001 or ISO 9001 readiness is a spreadsheet exercise",
+    "Evidence is rebuilt for every audit",
+    "Auditors need read-only access without exposing everything"
+   ]
+  },
+  {
+   "group": "Accountability",
+   "items": [
+    "Nobody is sure who must approve what",
+    "Tasks are chased by email and meetings",
+    "Approvals leave no trustworthy record"
+   ]
+  },
+  {
+   "group": "Industry and operations",
+   "items": [
+    "Retail, banking, healthcare, logistics and e-commerce rules in one place",
+    "Vendor and supply-chain obligations",
+    "Product, food-safety and cold-chain compliance"
+   ]
+  },
+  {
+   "group": "Leadership",
+   "items": [
+    "What are our top gaps and who owns them",
+    "Which risks are above appetite with no issue raised",
+    "Are we ready for the next audit"
+   ]
+  }
+ ]
+}

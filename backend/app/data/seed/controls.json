@@ -1,0 +1,954 @@
+[
+  {
+    "id": "CTRL-01",
+    "name": "Identity verification at onboarding",
+    "owner": "Onboarding Ops",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg"
+    ],
+    "ruleMatter": "KYC and CDD",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-02",
+    "name": "Beneficial ownership capture and verification",
+    "owner": "KYC Utility",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "hk"
+    ],
+    "ruleMatter": "KYC and CDD",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-03",
+    "name": "Periodic KYC refresh by risk tier",
+    "owner": "KYC Utility",
+    "controlType": "Detective",
+    "automation": "Automated",
+    "jurisdictions": [
+      "in",
+      "hk",
+      "sg"
+    ],
+    "ruleMatter": "KYC and CDD",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-04",
+    "name": "Transaction monitoring scenario library",
+    "owner": "FCC Analytics",
+    "controlType": "Detective",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "AML / CFT",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-05",
+    "name": "Suspicious activity report filing workflow",
+    "owner": "FCC Investigations",
+    "controlType": "Corrective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "ca",
+      "kr",
+      "af"
+    ],
+    "ruleMatter": "AML / CFT",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-06",
+    "name": "Sanctions list screening at payment initiation",
+    "owner": "Payments Ops",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "eu",
+      "sg"
+    ],
+    "ruleMatter": "Sanctions screening",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-07",
+    "name": "Blocked property reporting register",
+    "owner": "Sanctions Office",
+    "controlType": "Detective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us"
+    ],
+    "ruleMatter": "Sanctions screening",
+    "testResult": "Not tested"
+  },
+  {
+    "id": "CTRL-08",
+    "name": "Strong customer authentication on remote channels",
+    "owner": "Digital Channels",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "eu",
+      "uk",
+      "in"
+    ],
+    "ruleMatter": "Fraud and payments",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-09",
+    "name": "Complaint intake, triage and SLA tracking",
+    "owner": "Customer Care",
+    "controlType": "Detective",
+    "automation": "Automated",
+    "jurisdictions": [
+      "ca",
+      "in",
+      "uk",
+      "af"
+    ],
+    "ruleMatter": "Complaints handling",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-10",
+    "name": "Key facts statement generation and disclosure log",
+    "owner": "Product Governance",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "in",
+      "af"
+    ],
+    "ruleMatter": "Consumer protection",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-11",
+    "name": "Fair value and outcomes monitoring dashboard",
+    "owner": "Product Governance",
+    "controlType": "Detective",
+    "automation": "Automated",
+    "jurisdictions": [
+      "uk"
+    ],
+    "ruleMatter": "Consumer protection",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-12",
+    "name": "Third-party due diligence and risk tiering",
+    "owner": "Vendor Management",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "ca",
+      "uk",
+      "in",
+      "hk",
+      "sg"
+    ],
+    "ruleMatter": "Outsourcing and third party",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-13",
+    "name": "Critical vendor exit and transition plan",
+    "owner": "Vendor Management",
+    "controlType": "Corrective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "ca",
+      "uk",
+      "in",
+      "hk"
+    ],
+    "ruleMatter": "Outsourcing and third party",
+    "testResult": "Not tested"
+  },
+  {
+    "id": "CTRL-14",
+    "name": "Outsourcing register with regulator notification flags",
+    "owner": "Vendor Management",
+    "controlType": "Detective",
+    "automation": "Automated",
+    "jurisdictions": [
+      "sg",
+      "hk",
+      "cn"
+    ],
+    "ruleMatter": "Outsourcing and third party",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-15",
+    "name": "Important business service mapping and impact tolerance",
+    "owner": "Resilience Office",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "uk",
+      "hk",
+      "ca"
+    ],
+    "ruleMatter": "Operational resilience",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-16",
+    "name": "Severe but plausible scenario testing programme",
+    "owner": "Resilience Office",
+    "controlType": "Detective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "uk",
+      "hk",
+      "ca",
+      "sa"
+    ],
+    "ruleMatter": "Operational resilience",
+    "testResult": "Not tested"
+  },
+  {
+    "id": "CTRL-17",
+    "name": "Major ICT incident classification and regulator reporting",
+    "owner": "Incident Command",
+    "controlType": "Corrective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "eu",
+      "jp"
+    ],
+    "ruleMatter": "Operational resilience",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-18",
+    "name": "Vulnerability assessment and penetration testing cycle",
+    "owner": "Security Engineering",
+    "controlType": "Detective",
+    "automation": "Automated",
+    "jurisdictions": [
+      "in",
+      "sg",
+      "sa",
+      "kr"
+    ],
+    "ruleMatter": "Cyber security",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-19",
+    "name": "Privileged access management and access recertification",
+    "owner": "IAM Team",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "in",
+      "sg",
+      "sa",
+      "kr"
+    ],
+    "ruleMatter": "Cyber security",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-20",
+    "name": "Encryption of data at rest and in transit",
+    "owner": "Security Engineering",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "eu",
+      "in",
+      "hk",
+      "af"
+    ],
+    "ruleMatter": "Cyber security",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-21",
+    "name": "Personal data breach assessment and 72-hour notification",
+    "owner": "Privacy Office",
+    "controlType": "Corrective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "uk",
+      "eu",
+      "in",
+      "jp",
+      "kr"
+    ],
+    "ruleMatter": "Data privacy",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-22",
+    "name": "Records of processing activities maintenance",
+    "owner": "Privacy Office",
+    "controlType": "Detective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "eu",
+      "uk"
+    ],
+    "ruleMatter": "Data privacy",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-23",
+    "name": "Data protection impact assessment gate",
+    "owner": "Privacy Office",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "eu",
+      "uk",
+      "in"
+    ],
+    "ruleMatter": "Data privacy",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-24",
+    "name": "In-country data residency enforcement for payment data",
+    "owner": "Platform Engineering",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "in"
+    ],
+    "ruleMatter": "Data localisation",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-25",
+    "name": "Cross-border transfer assessment and approval",
+    "owner": "Privacy Office",
+    "controlType": "Preventive",
+    "automation": "Manual",
+    "jurisdictions": [
+      "cn",
+      "kr",
+      "eu"
+    ],
+    "ruleMatter": "Data localisation",
+    "testResult": "Not tested"
+  },
+  {
+    "id": "CTRL-26",
+    "name": "Regulatory return preparation and four-eye review",
+    "owner": "Regulatory Reporting",
+    "controlType": "Detective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "uk",
+      "eu",
+      "cn"
+    ],
+    "ruleMatter": "Regulatory reporting",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-27",
+    "name": "Capital adequacy calculation and attestation",
+    "owner": "Treasury",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "eu",
+      "cn"
+    ],
+    "ruleMatter": "Capital and liquidity",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-28",
+    "name": "Senior manager responsibility mapping and attestation",
+    "owner": "Governance Office",
+    "controlType": "Preventive",
+    "automation": "Manual",
+    "jurisdictions": [
+      "uk",
+      "us",
+      "af",
+      "hk"
+    ],
+    "ruleMatter": "Governance and accountability",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-29",
+    "name": "Board risk reporting pack with control effectiveness",
+    "owner": "Governance Office",
+    "controlType": "Detective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "af",
+      "sa",
+      "in"
+    ],
+    "ruleMatter": "Governance and accountability",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-30",
+    "name": "Suitability assessment at point of sale",
+    "owner": "Advisory Supervision",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "jp",
+      "hk"
+    ],
+    "ruleMatter": "Conduct and culture",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-31",
+    "name": "Record retention schedule enforcement",
+    "owner": "Information Governance",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "sa",
+      "cn"
+    ],
+    "ruleMatter": "Records and retention",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-32",
+    "name": "Credit application file retention for 25 months",
+    "owner": "Information Governance",
+    "controlType": "Detective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us"
+    ],
+    "ruleMatter": "Records and retention",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-33",
+    "name": "Quarterly user access review",
+    "owner": "IAM Team",
+    "controlType": "Detective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Access control",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-34",
+    "name": "Privileged access with multi-factor authentication",
+    "owner": "IAM Team",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Access control",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-35",
+    "name": "Leaver access removal within 24 hours",
+    "owner": "HR Operations",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Access control",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-36",
+    "name": "Peer review and approval before production release",
+    "owner": "Platform Engineering",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Change management",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-37",
+    "name": "Emergency change retrospective within 5 days",
+    "owner": "Platform Engineering",
+    "controlType": "Detective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Change management",
+    "testResult": "Not tested"
+  },
+  {
+    "id": "CTRL-38",
+    "name": "Quarterly backup restore test",
+    "owner": "Infrastructure",
+    "controlType": "Detective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Availability and backup",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-39",
+    "name": "Uptime and capacity monitoring with alerts",
+    "owner": "SRE",
+    "controlType": "Detective",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Availability and backup",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-40",
+    "name": "Encryption at rest and in transit",
+    "owner": "Platform Security",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Confidentiality and encryption",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-41",
+    "name": "Data classification labelling",
+    "owner": "Data Governance",
+    "controlType": "Preventive",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Confidentiality and encryption",
+    "testResult": "Not tested"
+  },
+  {
+    "id": "CTRL-42",
+    "name": "Annual mandatory training with completion tracking",
+    "owner": "HR Operations",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "People and training",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-43",
+    "name": "Background screening before joining",
+    "owner": "HR Operations",
+    "controlType": "Preventive",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "People and training",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-44",
+    "name": "Controlled documents with version approval",
+    "owner": "Quality Office",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Quality management",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-45",
+    "name": "Quality objectives and process performance review",
+    "owner": "Quality Office",
+    "controlType": "Detective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Quality management",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-46",
+    "name": "Annual internal audit plan executed",
+    "owner": "Internal Audit",
+    "controlType": "Detective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Internal audit programme",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-47",
+    "name": "CAPA tracked to closure with root cause",
+    "owner": "Quality Office",
+    "controlType": "Corrective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Corrective and preventive action",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-48",
+    "name": "Nonconforming product quarantine and review",
+    "owner": "Operations",
+    "controlType": "Corrective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Corrective and preventive action",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-49",
+    "name": "Supplier onboarding and periodic audit",
+    "owner": "Procurement",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Supply chain integrity",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-50",
+    "name": "Sub-tier and forced-labour screening",
+    "owner": "Procurement",
+    "controlType": "Detective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Supply chain integrity",
+    "testResult": "Not tested"
+  },
+  {
+    "id": "CTRL-51",
+    "name": "Batch traceability and mock recall",
+    "owner": "Quality Office",
+    "controlType": "Detective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Product safety and recall",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-52",
+    "name": "Allergen and label review before release",
+    "owner": "Regulatory Affairs",
+    "controlType": "Preventive",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Product safety and recall",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-53",
+    "name": "PHI access logging and review",
+    "owner": "Privacy Office",
+    "controlType": "Detective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Health information privacy",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-54",
+    "name": "Role-based minimum-necessary PHI access",
+    "owner": "IAM Team",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Health information privacy",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-55",
+    "name": "Price and promotion accuracy check",
+    "owner": "E-commerce Ops",
+    "controlType": "Detective",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Online consumer rights",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-56",
+    "name": "Returns and refund time monitoring",
+    "owner": "Customer Care",
+    "controlType": "Detective",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Online consumer rights",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-57",
+    "name": "Driver hours and vehicle inspection checks",
+    "owner": "Fleet Ops",
+    "controlType": "Preventive",
+    "automation": "Semi-automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Transport and warehouse safety",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-58",
+    "name": "Cold-chain temperature monitoring",
+    "owner": "Warehouse Ops",
+    "controlType": "Detective",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Transport and warehouse safety",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-59",
+    "name": "Segregation of duties in the finance system",
+    "owner": "Finance Systems",
+    "controlType": "Preventive",
+    "automation": "Automated",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Financial reporting controls",
+    "testResult": "Needs improvement"
+  },
+  {
+    "id": "CTRL-60",
+    "name": "Month-end reconciliation sign-off",
+    "owner": "Group Controller",
+    "controlType": "Detective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Financial reporting controls",
+    "testResult": "Effective"
+  },
+  {
+    "id": "CTRL-61",
+    "name": "Energy and emissions data collection",
+    "owner": "Sustainability Office",
+    "controlType": "Detective",
+    "automation": "Manual",
+    "jurisdictions": [
+      "us",
+      "uk",
+      "in",
+      "hk",
+      "sg",
+      "ca"
+    ],
+    "ruleMatter": "Environmental and sustainability",
+    "testResult": "Not tested"
+  }
+]
